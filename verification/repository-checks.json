@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-22",
+  "latest_version": 141,
+  "packaged_OTA_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "current_sources_rebuilt_byte_identical_with_preserved_libraries": true,
+  "all_third_party_libraries_rebuilt_this_session": false,
+  "compiler": "Apple Clang selected from PATH; LLVM ld.lld selected via LLVM_BIN",
+  "host_C_suites_passed": [
+    "HTTP fragmented parsing",
+    "official bootstrap/activation protocol",
+    "WebSocket handshakes and fragmented streams",
+    "audio level boundaries and randomized frames",
+    "Wi-Fi framing/configuration/DHCP malformed inputs"
+  ],
+  "sanitizers": [
+    "AddressSanitizer",
+    "UndefinedBehaviorSanitizer"
+  ],
+  "release_tool_tests_passed": 4,
+  "local_staging_temp_directory_test_passed": true,
+  "local_staging_modified_real_device": false,
+  "original_23_groups_are_retained_historical_results": true,
+  "physical_device_tested": false,
+  "protected_ranges_compared_with_original": true,
+  "static_bss_bytes": 3016,
+  "static_reserved_bytes": 3072,
+  "historical_source_directories_removed_before_final_build": true,
+  "final_rebuild_still_matches_issued_V0141": true
+}

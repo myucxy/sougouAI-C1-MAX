@@ -1,0 +1,33 @@
+{
+  "version": 141,
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "previous_single_allocation_bytes": 101232,
+  "V0115_actual_Thumb_memory_error_reproduced": true,
+  "new_session_allocations_bytes": [
+    21072,
+    24280,
+    20596
+  ],
+  "new_session_total_bytes": 65948,
+  "saved_working_bytes": 35284,
+  "fragmented_heap_max_block_after_worker_stack_bytes": 32768,
+  "retries_without_live_allocation_leaks": 20,
+  "failure_cleanup": {
+    "0": {
+      "allocation_bytes": 21072,
+      "prior_blocks_wiped_and_freed": true
+    },
+    "1": {
+      "allocation_bytes": 24280,
+      "prior_blocks_wiped_and_freed": true
+    },
+    "2": {
+      "allocation_bytes": 20596,
+      "prior_blocks_wiped_and_freed": true
+    }
+  },
+  "retry_cooldown_ms": 250,
+  "allocation_failure_diagnostic": "XZMEM.TXT",
+  "requires_TLS_WSS_phase_lifetime_regression": true,
+  "physical_heap_measured": false
+}

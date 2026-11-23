@@ -1,0 +1,45 @@
+{
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "previous_candidate_reproduction": {
+    "version": 114,
+    "fixed_end_wait_ms": 150,
+    "XRUN_before_explicit_stop": true,
+    "DMA_zeroed_by_adapter": false,
+    "authority": "actual packaged adapter + controlled period/driver boundary model; physical pop cause still inferred"
+  },
+  "DMA_cases": {
+    "64": {
+      "last_PCM": 20000,
+      "elapsed_ms": 50,
+      "heard_quiet_frames": 544,
+      "XRUN_count": 0,
+      "normal_end_STOPs": 0
+    },
+    "320": {
+      "last_PCM": -32768,
+      "elapsed_ms": 65,
+      "heard_quiet_frames": 544,
+      "XRUN_count": 0,
+      "normal_end_STOPs": 0
+    },
+    "1088": {
+      "last_PCM": 32767,
+      "elapsed_ms": 115,
+      "heard_quiet_frames": 544,
+      "XRUN_count": 0,
+      "normal_end_STOPs": 0
+    },
+    "2048": {
+      "last_PCM": 15000,
+      "elapsed_ms": 180,
+      "heard_quiet_frames": 608,
+      "XRUN_count": 0,
+      "normal_end_STOPs": 0
+    }
+  },
+  "wrap_and_stall_and_fault_cleanup": true,
+  "late_TTS_stop_400ms_and_smooth_resumed_PCM": true,
+  "normal_end_retains_output_and_explicit_close_releases": true,
+  "XRUN_stop_not_repeated": true,
+  "physical_audio_observed": false
+}

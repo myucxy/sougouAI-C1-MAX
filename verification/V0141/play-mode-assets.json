@@ -1,0 +1,40 @@
+{
+  "dimensions": [
+    28,
+    28
+  ],
+  "color": "RGB565",
+  "pixel_heap_bytes": 0,
+  "authoring": "Geometric icons drawn in scripts/generate_music_mode_icons.py; no third-party asset",
+  "header_sha256": "60ffd07e055870552823809f968a45867c08d7ec74ed1339b8158af72fe921a6",
+  "icons": [
+    {
+      "mode": 0,
+      "name": "repeat_one",
+      "png": "repeat_one.png",
+      "png_sha256": "c6c8a968463dda098c123886109d8038b25e303c9a212717101b148e97f91a74",
+      "RGB565_sha256": "ce39e6a038ccefd3d9db3a7e4d0de00694c89f996d7001024e8f38aac210dade"
+    },
+    {
+      "mode": 1,
+      "name": "repeat_all",
+      "png": "repeat_all.png",
+      "png_sha256": "d9ac4d3e0fb8db11572f5e3803d894c6e26a866a324fef5d395ea53b70fdca0b",
+      "RGB565_sha256": "ca3274ddc2bd1a653fd91f2726a77cc3560a470ec8a5ce27463a43bb40c088e2"
+    },
+    {
+      "mode": 2,
+      "name": "sequential",
+      "png": "sequential.png",
+      "png_sha256": "1262734566fb19ae4008b7176f29cad0718c362dc9dd55952ca29dc31af4d2ce",
+      "RGB565_sha256": "a6c1cedd6422c7cc30cf16d166dfca2c9441db0698a5d40405a8801280283880"
+    },
+    {
+      "mode": 3,
+      "name": "shuffle",
+      "png": "shuffle.png",
+      "png_sha256": "84de721c93fea4c89adcb8a32ff850ea7d62ad2d3a7571b0ad7efca793f60b06",
+      "RGB565_sha256": "d7df5264d83a93740c6e32870e77b5ceab4a6649b5aa7ac62ff2e52df2aefaa3"
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "version": 141,
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "checks": {
+    "screen_play_button_toggles_immediately_without_double_click_delay": true,
+    "native_hit_test_and_expanded_left_right_screen_targets_keep_direct_track_actions": true,
+    "song_title_and_list_header_restore_song_list_entry_instead_of_playback_gestures": true,
+    "time_blank_and_battery_screen_regions_do_not_toggle_or_skip_on_double_tap": true,
+    "holding_screen_play_button_never_means_previous_track": true,
+    "song_list_long_press_still_only_opens_delete_confirmation": true,
+    "raw_screen_points_no_longer_generate_playback_messages_or_key_gestures": true,
+    "volume_panel_upper_half_dismissal_does_not_toggle_music": true,
+    "extra_screen_gesture_state_message_and_GUI_task_are_removed": true
+  },
+  "physical_device_verified": false,
+  "limitations": [
+    "Actual screen callbacks and original hit-test instructions execute with modeled object child lists and event delivery. Physical screen sensitivity remains unverified."
+  ]
+}

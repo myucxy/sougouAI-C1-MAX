@@ -1,0 +1,31 @@
+name: 故障报告
+description: 提供版本与复现步骤，不上传隐私或完整镜像
+title: "[故障] "
+body:
+  - type: markdown
+    attributes:
+      value: "请勿上传录音、身份种子、Wi-Fi 密码、完整 OTA 或 Flash 备份。软件回放与实机现象请分别说明。"
+  - type: input
+    id: version
+    attributes:
+      label: 当前版本与固件 SHA-256
+    validations:
+      required: true
+  - type: textarea
+    id: hardware
+    attributes:
+      label: 硬件与升级前状态
+      description: 主板信息、升级前版本、是否能关机、USB 是否识别；不填写设备唯一标识。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤、预期与实际结果
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: 脱敏诊断信息
+      description: 只填写与故障有关且已经检查过的少量日志。

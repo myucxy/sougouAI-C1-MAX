@@ -1,0 +1,25 @@
+{
+  "version": 141,
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "cases": [
+    {
+      "initial_tick": 1000,
+      "native_setup_ms": 35,
+      "first_frame_delay_ms": 25,
+      "real_command_consumer_Thumb_executed": true,
+      "first_frame_encoded_and_sent": true,
+      "actual_one_second_stall_still_fails": true,
+      "fault_log_has_driver_counters_no_PCM": true
+    },
+    {
+      "initial_tick": 4294967280,
+      "native_setup_ms": 35,
+      "first_frame_delay_ms": 25,
+      "real_command_consumer_Thumb_executed": true,
+      "first_frame_encoded_and_sent": true,
+      "actual_one_second_stall_still_fails": true,
+      "fault_log_has_driver_counters_no_PCM": true
+    }
+  ],
+  "physical_capture_success_verified": false
+}

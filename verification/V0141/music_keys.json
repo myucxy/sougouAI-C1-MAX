@@ -1,0 +1,30 @@
+{
+  "version": 141,
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "checks": {
+    "V0138_physical_double_click_reproduces_pause_then_resume_same_track": true,
+    "physical_single_click_toggles_once_only_after_320ms_double_click_window": true,
+    "physical_double_click_goes_directly_to_next_and_plays_from_both_playing_and_paused_states": true,
+    "double_click_never_queues_intermediate_pause_resume_or_late_single_click": true,
+    "physical_long_hold_previous_at_600ms_fires_once_and_release_repeat_never_pauses": true,
+    "long_release_fallback_starts_previous_even_if_worker_was_delayed_and_original_track_was_paused": true,
+    "holding_second_press_cancels_pending_single_click_and_does_not_pause": true,
+    "orphan_releases_and_bounced_pressed_or_released_events_do_not_duplicate_actions": true,
+    "USB_REC_AI_handoff_confirmation_and_page_exit_cancel_pending_physical_single_click": true,
+    "physical_key_controls_settings_background_music_without_new_audio_owner": true,
+    "physical_key_keeps_playback_control_available_when_screen_is_off": true,
+    "physical_key_timestamps_handle_tick_wraparound": true,
+    "command_queue_busy_retains_key_action_until_the_player_accepts_it": true,
+    "other_physical_keys_and_REC_mode_still_forward_to_original_native_handler": true,
+    "existing_clock_worker_uses_40ms_only_for_music_and_retains_500ms_for_AI_and_REC": true
+  },
+  "key_id": 2,
+  "single_click_wait_ms": 320,
+  "long_press_ms": 600,
+  "service": "existing clock worker, 40ms in MUSIC mode",
+  "physical_device_verified": false,
+  "limitations": [
+    "The real patched native physical-key entry, linked ARM recognizer, music state and worker-delay selection execute. Key edge timing, player endpoints and RTOS scheduling are controlled models.",
+    "Actual hardware debouncing, gesture feel and uninterrupted speaker output require device validation."
+  ]
+}

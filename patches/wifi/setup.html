@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>C208 · Wi-Fi 配网</title>
+<style>
+:root{color-scheme:light;--ink:#183329;--muted:#61766c;--green:#1d654b;--line:#dce7df;--bg:#f4f7f2}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 system-ui,-apple-system,"PingFang SC",sans-serif}main{max-width:480px;margin:0 auto;padding:28px 20px 38px}.brand{display:flex;align-items:center;gap:10px;font-size:13px;font-weight:700;letter-spacing:.13em}.mark{display:grid;place-items:center;width:36px;height:36px;border-radius:12px;background:var(--green);color:white;font-size:22px}.badge{display:inline-block;margin-top:28px;border:1px solid #ccded1;border-radius:100px;padding:3px 10px;color:var(--green);font-size:12px;background:#eaf2e9}h1{font-size:32px;line-height:1.25;letter-spacing:-.04em;margin:14px 0 12px}p{margin:0 0 18px}.intro,small{color:var(--muted)}.steps{display:flex;gap:7px;margin:24px 0}.steps span{flex:1;border-top:3px solid var(--line);padding-top:8px;font-size:12px;color:var(--muted)}.steps span:first-child{border-color:var(--green);color:var(--green)}section{background:white;border:1px solid var(--line);border-radius:20px;padding:22px 20px;box-shadow:0 8px 28px #18332905}label{display:block;font-weight:650;margin-bottom:8px}.field{margin:0 0 22px}input,select,button{font:inherit}input,select{display:block;width:100%;border:1px solid #bfcec3;border-radius:11px;padding:12px;background:white;color:var(--ink);min-height:48px}input:focus,select:focus,button:focus-visible{outline:3px solid #94c4ac;outline-offset:2px}input[readonly]{background:#f5f8f4}.help{font-size:12px;margin-top:7px;color:var(--muted)}.row{display:flex;align-items:center;justify-content:space-between;gap:10px}.text-button{padding:3px 0;border:0;background:none;color:var(--green);font-size:13px;text-decoration:underline;cursor:pointer;min-height:32px}.password{position:relative}.password input{padding-right:68px}.password button{position:absolute;right:10px;top:8px;min-height:34px;padding:4px 8px;border:0;background:transparent;color:var(--green);border-radius:6px;font-size:13px}.submit{width:100%;padding:14px;border:0;border-radius:12px;background:var(--green);color:white;font-weight:700;cursor:pointer;min-height:52px}.submit:disabled,button:disabled{opacity:.55;cursor:wait}.notice{margin-top:18px;padding:13px;border-radius:10px;background:#f0f5ee;color:var(--green);font-size:13px;line-height:1.6}.notice[data-error="true"]{background:#fff0e6;color:#873d13}.foot{font-size:12px;line-height:1.8;margin:22px 3px 0;color:var(--muted)}.foot strong{color:var(--ink);font-weight:500}#networkMeta{min-height:19px}.sr-only{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)}[hidden]{display:none!important}@media(max-width:350px){main{padding:22px 14px}section{padding:18px 15px}h1{font-size:28px}}@media(prefers-reduced-motion:no-preference){button{transition:background .15s}}
+</style>
+</head>
+<body><main>
+<div class="brand"><span class="mark" aria-hidden="true">⌁</span><span>C208 / DEVICE SETUP</span></div>
+<div class="badge">本地配网 · 无需下载 APP</div>
+<h1>让录音笔连接 Wi-Fi</h1>
+<p class="intro">选择附近网络，输入路由器密码。<br>连接结果会显示在录音笔屏幕上。</p>
+<div class="steps" aria-label="配网步骤"><span>01 选择网络</span><span>02 输入密码</span><span>03 设备连接</span></div>
+<section aria-label="网络配置">
+<form id="wifiForm" action="/configure" method="post" enctype="application/x-www-form-urlencoded" autocomplete="off">
+<div class="field"><div class="row"><label for="networks">附近的 Wi-Fi</label><button id="rescan" class="text-button" type="button">重新扫描</button></div>
+<select id="networks" aria-describedby="scanState networkMeta"><option value="">正在读取附近网络…</option></select>
+<div id="scanState" class="help" role="status" aria-live="polite">网络列表在开启热点时扫描。</div><div id="networkMeta" class="help"></div></div>
+<div class="field"><label for="ssid">网络名称</label><input id="ssid" name="ssid" maxlength="32" required placeholder="选择网络，或手动输入隐藏网络" autocapitalize="none" spellcheck="false"><div class="help">手动输入可连接隐藏网络，最多 32 字节。</div></div>
+<div class="field"><label for="password">Wi-Fi 密码</label><div class="password"><input id="password" name="password" type="password" maxlength="32" autocomplete="new-password" placeholder="输入路由器密码" aria-describedby="passwordHelp"><button id="showPassword" type="button" aria-controls="password" aria-pressed="false">显示</button></div><div id="passwordHelp" class="help">支持 8–32 个 ASCII 字符；开放网络无需密码。</div></div>
+<button id="submit" class="submit" type="submit">保存并连接</button>
+<div id="feedback" class="notice" role="status" aria-live="polite">提交后配网热点会关闭。看到“无互联网”提示时，请保持连接直到提交完成。</div>
+<noscript><p class="help">浏览器未启用 JavaScript，请手动填写网络名称和密码后提交。</p></noscript>
+</form></section>
+<p class="foot">当前设备热点：<strong>C208-Setup</strong> · 临时开放 5 分钟<br>支持开放网络与 WPA/WPA2 个人网络。其他认证类型请勿选择。重新扫描会短暂断开热点，随后需重新连接。<br><strong>清风惹尘丶</strong> · V0092</p>
+</main>
+<script>
+'use strict';
+const $=id=>document.getElementById(id), select=$('networks'), ssid=$('ssid'), password=$('password'), feedback=$('feedback');
+let networks=[], locked=false;
+function message(text,error=false){feedback.textContent=text;feedback.dataset.error=String(error);}
+function setLocked(value){locked=value;['submit','rescan','showPassword','networks','ssid','password'].forEach(id=>$(id).disabled=value);}
+function manual(){ssid.readOnly=false;password.readOnly=false;password.placeholder='输入路由器密码';$('passwordHelp').textContent='支持 8–32 个 ASCII 字符；开放网络可留空。';$('networkMeta').textContent='';}
+function selected(){manual();if(select.value===''){ssid.focus();return;}const n=networks[Number(select.value)];if(!n)return;ssid.value=n.ssid;ssid.readOnly=true;password.value='';password.readOnly=n.open;password.placeholder=n.open?'开放网络，无需密码':'输入该网络密码';$('passwordHelp').textContent=n.open?'此网络无需密码。':'输入路由器的 Wi-Fi 密码，8–32 个 ASCII 字符。';$('networkMeta').textContent=`${n.rssi} dBm · 信道 ${n.channel} · ${n.open?'开放网络':'WPA/WPA2'}`;if(!n.open)password.focus();}
+async function load(){
+ select.disabled=true;
+ try{const response=await fetch('/networks',{cache:'no-store'});if(!response.ok)throw Error();const data=await response.json();networks=Array.isArray(data.networks)?data.networks:[];
+ select.replaceChildren(new Option('手动输入 / 隐藏网络',''));
+ networks.forEach((n,i)=>{const strength=n.rssi>=-55?'强':n.rssi>=-70?'中':'弱';const opt=new Option(`${n.ssid} · ${strength} · ${n.supported?(n.open?'开放':'加密'):'暂不支持'}`,String(i));opt.disabled=!n.supported;select.add(opt);});
+ $('scanState').textContent=data.status==='ready'?(networks.length?`显示 ${networks.length} 个网络，按信号强度排序。`:'未发现可见网络，可手动输入或重新扫描。'):'本次扫描未完成，可手动输入网络，或重新扫描。';
+ }catch(e){select.replaceChildren(new Option('手动输入 / 隐藏网络',''));$('scanState').textContent='列表暂时读取失败，请手动输入，或重新连接设备热点后刷新页面。';}
+ finally{select.disabled=false;}
+}
+select.addEventListener('change',selected);
+$('showPassword').addEventListener('click',()=>{const show=password.type==='password';password.type=show?'text':'password';$('showPassword').textContent=show?'隐藏':'显示';$('showPassword').setAttribute('aria-pressed',String(show));});
+$('wifiForm').addEventListener('submit',async event=>{
+ event.preventDefault();if(locked)return;
+ if(!ssid.value||new TextEncoder().encode(ssid.value).length>32||/[\x00-\x1f\x7f]/.test(ssid.value)){message('网络名称需要 1–32 字节，不能包含控制字符。',true);ssid.focus();return;}
+ if(password.value!==''&&!/^[\x20-\x7e]{8,32}$/.test(password.value)){message('密码需要 8–32 个 ASCII 字符；开放网络请留空。',true);password.focus();return;}
+ const body=new URLSearchParams({ssid:ssid.value,password:password.value});setLocked(true);message('正在提交网络信息…');
+ try{const response=await fetch('/configure',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body});if(!response.ok){message('提交未通过，请检查网络名称和密码长度后重试。',true);setLocked(false);return;}password.value='';message('已收到。设备正在连接路由器，配网热点即将关闭，请查看录音笔屏幕。');$('submit').textContent='已提交，请查看设备';}
+ catch(e){message('未收到提交确认。请查看录音笔状态；若仍在配网，可重新连接设备热点后刷新页面。',true);setLocked(false);}
+});
+$('rescan').addEventListener('click',async()=>{
+ if(locked||!confirm('重新扫描会暂时关闭 C208-Setup。扫描完成后，请重新连接该热点并刷新此页面。继续吗？'))return;
+ setLocked(true);message('正在请求重新扫描…');
+ try{const response=await fetch('/scan',{method:'POST',headers:{'Content-Type':'application/x-www-form-urlencoded'},body:''});if(!response.ok)throw Error();message('已请求重新扫描。请稍候重新连接 C208-Setup，再刷新页面。');}
+ catch(e){message('未收到重新扫描确认，请查看设备；也可在录音笔上关闭再开启手机配网。',true);setLocked(false);}
+});
+load();
+</script></body></html>

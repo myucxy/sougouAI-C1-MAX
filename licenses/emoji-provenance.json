@@ -1,0 +1,26 @@
+[
+  {
+    "path": "happy.gif",
+    "url": "https://raw.githubusercontent.com/78/xiaozhi-assets-generator/55517b40d724014faff00f941ca700cbf9d14b51/web/public/static/emojis/noto-emoji_64/happy.gif",
+    "sha256": "94135ea2aa7e2e18080c26d95000a1c911d751e36f69651813678697637f2e2f",
+    "bytes": 65999
+  },
+  {
+    "path": "happy.png",
+    "url": "https://raw.githubusercontent.com/78/xiaozhi-fonts/d45dbc64052d57048f20ab1770074172ce9eb53b/png/noto-color-emoji_64/happy.png",
+    "sha256": "d3fc4ef51b363f725a4293a23c20242c203e38a0552f7d92ff5ed9e48f7cdc05",
+    "bytes": 3591
+  },
+  {
+    "path": "LICENSE-Noto",
+    "url": "https://raw.githubusercontent.com/googlefonts/noto-emoji/main/LICENSE",
+    "sha256": "500bb1ccf43df7bbb522112f9133a52b16e1c35e809632f5d8609b179152de5b",
+    "bytes": 4330
+  },
+  {
+    "path": "upstream-README.md",
+    "url": "https://raw.githubusercontent.com/78/xiaozhi-fonts/d45dbc64052d57048f20ab1770074172ce9eb53b/README.md",
+    "sha256": "feeb6a32e76d96b51244bac194fec2c4a09835d0a8c48d7182ea6f806ca3f339",
+    "bytes": 9327
+  }
+]

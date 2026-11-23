@@ -1,0 +1,421 @@
+{
+  "version": 96,
+  "status": "candidate / trim and V0095 network changes await hardware verification",
+  "package_bytes": 8388624,
+  "package_sha256": "da7b7d091ffae6e6beb9e3e55fba2792d667cc7dfea3b49e3405d3af158c1881",
+  "base_package_sha256": "46233b45060590a882b0530c534c338b3a5a6c36253fc0c1831419adb8556b66",
+  "host_sha256": "550b0b58bdb2717360e051372c7f8831492256c1f431202aea0f6ae25f3142b4",
+  "append_file_offset": 5802264,
+  "append_bytes": 36268,
+  "code_bytes": 35088,
+  "page_table_offset": 5837352,
+  "page_id": 58,
+  "symbols": {
+    "protocol.c": "0x0",
+    "$t": "0x1858c63c",
+    "ieq": "0x18588fb5",
+    "decode": "0x18588ff1",
+    "firmware.c": "0x0",
+    "trace_event": "0x18589489",
+    "trace_error": "0x1858957d",
+    "worker": "0x18589851",
+    "trace_boot": "0x1858a1b9",
+    "load_config": "0x1858a239",
+    "connect_network": "0x1858a2dd",
+    "stop_ap": "0x1858a9a1",
+    "start_ap": "0x1858a619",
+    "wlan_disconnect": "0x1858aa59",
+    "store_config": "0x1858aaa5",
+    "complete_handoff": "0x1858abe9",
+    "network_job": "0x1858ab9d",
+    "station_web_service": "0x1858aca7",
+    "back_click": "0x18589e61",
+    "row_click": "0x18589e73",
+    "wifi_icon": "0x1858d1d4",
+    "refresh_status": "0x18589f23",
+    "page_open": "0x1858a0c1",
+    "read_record": "0x1858ae57",
+    "wireless_power": "0x1858aed1",
+    "select_station_mode": "0x1858af51",
+    "scan_before_ap": "0x1858afad",
+    "tcp_job": "0x1858b12d",
+    "$d": "0x1858c660",
+    "raw_accept": "0x1858b521",
+    "close_client": "0x1858b5f5",
+    "html": "0x1858d204",
+    "management_html": "0x1858fa50",
+    "busy_reply": "0x185909d7",
+    "bad_request": "0x185906ce",
+    "rescan_accepted": "0x18590843",
+    "accepted": "0x185908ed",
+    "management_accepted": "0x185907aa",
+    "raw_recv": "0x1858b665",
+    "raw_sent": "0x1858b7a5",
+    "raw_error": "0x1858b7bd",
+    "wifi_icon_pixels": "0x18590a28",
+    "scan.c": "0x0",
+    "quoted": "0x1858c429",
+    "number": "0x1858be65",
+    "management.c": "0x0",
+    "header": "0x1858c27d",
+    "trim96.c": "0x0",
+    "credentials_valid": "0x18588919",
+    "http_request": "0x18588979",
+    "__aeabi_memclr4": "0x18589411",
+    "__aeabi_memcpy": "0x185893e9",
+    "record_hash": "0x185890a9",
+    "record_valid": "0x185890cd",
+    "record_make": "0x1858912d",
+    "dhcp_reply": "0x18589171",
+    "memcpy": "0x185893c5",
+    "memset": "0x185893d9",
+    "__aeabi_memcpy4": "0x185893fd",
+    "wifi_ap_bus_probe": "0x1858941f",
+    "wifi_ap_driver_start": "0x185895f1",
+    "wifi_dhcp_hook": "0x1858974d",
+    "wifi_legacy_dhcp_notify": "0x18589789",
+    "wifi_boot_hook": "0x185897bd",
+    "trim96_language": "0x1858c559",
+    "wifi_legacy_ap_hook": "0x18589cc7",
+    "wifi_back_gesture": "0x18589ccd",
+    "wifi_page_init": "0x18589cdf",
+    "management_ip": "0x1858bee9",
+    "wifi_page_deinit": "0x1858a033",
+    "wifi_page_message": "0x1858a06f",
+    "wifi_settings_append": "0x1858a07d",
+    "wifi_device_info_update": "0x1858a0d3",
+    "wifi_scan_add": "0x1858b83d",
+    "wifi_scan_json": "0x1858ba21",
+    "management_json": "0x1858c2b9",
+    "management_allowed": "0x1858bf69",
+    "wifi_page_name": "0x1858d1c6",
+    "wifi_security_supported": "0x1858b7f5",
+    "trim96_page_replace": "0x1858c57d",
+    "trim96_page_replace_original": "0x1858c63d",
+    "trim96_page_push": "0x1858c591",
+    "trim96_page_push_original": "0x1858c649",
+    "trim96_mbox": "0x1858c5ad",
+    "trim96_mbox_original": "0x1858c655",
+    "wifi_ap_bus_guard": "0x1858c615",
+    "wifi_device_info_entry": "0x1858c631"
+  },
+  "state_base": "0x2002c99c",
+  "state_reservation_bytes": 12288,
+  "worker_stack_bytes": 8192,
+  "heap_before_bytes": 131072,
+  "heap_after_bytes": 118784,
+  "hooks": [
+    {
+      "offset": 259312,
+      "before": "25f002fa",
+      "after": "4af164f1",
+      "purpose": "wifi_boot_hook"
+    },
+    {
+      "offset": 640790,
+      "before": "dbf7e7f8",
+      "after": "edf019f0",
+      "purpose": "wifi_dhcp_hook"
+    },
+    {
+      "offset": 329634,
+      "before": "fff7d7fe",
+      "after": "39f190f2",
+      "purpose": "wifi_legacy_ap_hook"
+    },
+    {
+      "offset": 489450,
+      "before": "d8f7effd",
+      "after": "11f1cdf7",
+      "purpose": "wifi_legacy_dhcp_notify"
+    },
+    {
+      "offset": 547166,
+      "before": "00f05ffa",
+      "after": "03f147f6",
+      "purpose": "wifi_ap_driver_start"
+    },
+    {
+      "offset": 887734,
+      "before": "00f0bdfa",
+      "after": "b3f02df5",
+      "purpose": "wifi_ap_bus_guard"
+    },
+    {
+      "offset": 330490,
+      "before": "fff72bbd",
+      "after": "39f1e4b0",
+      "purpose": "legacy quick-transfer tail call"
+    },
+    {
+      "offset": 371300,
+      "before": "01f03afd",
+      "after": "2ff10af3",
+      "purpose": "settings row"
+    },
+    {
+      "offset": 374068,
+      "before": "78f21218",
+      "after": "28125918",
+      "purpose": "extended page table"
+    },
+    {
+      "offset": 218276,
+      "before": "9cc90220",
+      "after": "9cf90220",
+      "purpose": "reserve extension BSS before large heap"
+    },
+    {
+      "offset": 5801888,
+      "before": "24e2002078e70100",
+      "after": "24e2002078170200",
+      "purpose": "zero extension BSS at startup"
+    },
+    {
+      "offset": 546546,
+      "before": "5bf01dfa",
+      "after": "00bf00bf",
+      "purpose": "suppress existing plaintext Wi-Fi password log"
+    },
+    {
+      "offset": 367242,
+      "before": "2ef1fdf6",
+      "after": "32f1d1f5",
+      "purpose": "direct version and author below"
+    },
+    {
+      "offset": 367080,
+      "before": "a022",
+      "after": "9022",
+      "purpose": "version heading y=144"
+    },
+    {
+      "offset": 367150,
+      "before": "c022",
+      "after": "ac22",
+      "purpose": "version value y=172"
+    },
+    {
+      "offset": 269704,
+      "before": "022810b5",
+      "after": "4af1e6b3",
+      "purpose": "force and persist simplified-Chinese language on setter"
+    },
+    {
+      "offset": 269692,
+      "before": "014b1878",
+      "after": "00207047",
+      "purpose": "language getter always returns simplified Chinese"
+    },
+    {
+      "offset": 374076,
+      "before": "00b50a4b",
+      "after": "31f11eb0",
+      "purpose": "block retired welcome/QR/language page replacement"
+    },
+    {
+      "offset": 374200,
+      "before": "10b50a4b",
+      "after": "30f1eab7",
+      "purpose": "block retired welcome/QR/language popup requests"
+    },
+    {
+      "offset": 380240,
+      "before": "70b54421",
+      "after": "2ff12cb4",
+      "purpose": "remove App nag dialogs and convert saved-record prompts to local text"
+    },
+    {
+      "offset": 370856,
+      "before": "e7f768fb",
+      "after": "00f003b8",
+      "purpose": "remove old App-connect row from device settings"
+    },
+    {
+      "offset": 371214,
+      "before": "2046",
+      "after": "03e0",
+      "purpose": "skip language row creation and ID store, preserve later multiplier"
+    },
+    {
+      "offset": 365574,
+      "before": "e5f7affc",
+      "after": "00f002b8",
+      "purpose": "remove QR row from About Device"
+    },
+    {
+      "offset": 365654,
+      "before": "e5f787fc",
+      "after": "00f004b8",
+      "purpose": "remove retired App-unbind row, preserve local factory reset"
+    },
+    {
+      "offset": 374300,
+      "before": "e6f7aefc",
+      "after": "00f004b8",
+      "purpose": "skip retired App binding guide during initial page selection"
+    },
+    {
+      "offset": 381772,
+      "before": "062900d0",
+      "after": "00f000b8",
+      "purpose": "disable direct connect-App nag callback"
+    },
+    {
+      "offset": 330144,
+      "before": "30b52d48",
+      "after": "00207047",
+      "purpose": "do not create legacy app_wsc_t/wsc_poll_t threads"
+    },
+    {
+      "offset": 256212,
+      "before": "12f064f8",
+      "after": "00bf00bf",
+      "purpose": "remove direct legacy WebSocket startup call"
+    },
+    {
+      "offset": 256096,
+      "before": "10b51f4c",
+      "after": "00207047",
+      "purpose": "disable old App Wi-Fi transfer transition handler"
+    },
+    {
+      "offset": 305280,
+      "before": "f0b597b00446",
+      "after": "012040427047",
+      "purpose": "reject legacy BLE file download"
+    },
+    {
+      "offset": 306616,
+      "before": "10b596b016a9",
+      "after": "012040427047",
+      "purpose": "reject legacy BLE file synced acknowledgement"
+    },
+    {
+      "offset": 5795336,
+      "before": "68b912186c4d4e1878b9121888b9121898b91218a0b91218b4b91218b8b91218bcb91218c4b91218ccb91218d4b91218dcb91218e4b91218ecb912180cba121844ba121850ba121860ba121878ba1218a4ba1218bcba1218d4ba12180cba1218e8ba1218f8ba121808bb121818bb121828bb121838bb121848bb121858bb12186cbb121878bb121888bb1218a8bb1218c8bb1218d8bb1218e8bb12181cbc121850bc121850ba121878bb121860bc121874bc121884bc121894bc1218a4bc1218b4bc121810bd121820bd121830bd121840bd121850bd121860bd121870bd121880bd12189cbd1218b0bd1218c0bd1218c8bd1218ecbd121808be121818be12181cbe121824be12182cbe121834be121838be121894be1218a4be1218f8be121898e9121808bf121818bf121828bf121838bf121840bf121848bf121850bf121858bf121868bf121878bf1218a0bf1218e0bf121814c012181cc012182cc0121844c0121858c0121868c0121880c01218a0c01218c0c01218d4c01218d8c01218dcc01218e0c01218e4c0121818be1218e8c01218f0c0121818c1121840c1121850c112185cc112186cc112187cc112189cc11218acc11218bcc11218c8c11218e0c1121804c2121844ba121894ba121828c2121838c2121848c2121858c2121868c2121878c2121888c2121894c212189cc21218b8c21218ccc21218f0c2121800c3121828c3121834c3121850c3121870c312187cc312188cc31218a8c31218b8c31218d4c31218e4c31218f8c312180cc4121820c4121828c4121838c4121848c4121858c4121868c4121810c5121820c51218bcc512183cc7121844c7121868c312185cc7121864c712186cc7121874c7121884c712188cc7121898c71218a0c71218a8c71218b0c71218b8c71218c0c71218ccc71218d4c71218d8c71218e4c71218ecc71218f4c7121800c812180cc8121820c812182cc8121838c8121840c8121850c8121878c8121894c81218a4c8121828c31218c0c81218f8c8121800c9121808c9121810c9121840c9121874c91218a4c91218acc91218b4c91218bcc91218d4c91218e4c912180cca121828ca121830ca121840ca121868ca1218",
+      "after": "68b912186c4d4e1878b9121888b9121898b91218a0b91218b4b91218b8b91218bcb91218c4b91218ccb91218d4b91218dcb91218e4b91218ecb912180cba121844ba121850ba121860ba121878ba1218a4ba1218bcba1218d4ba12180cba1218e8ba1218f8ba121808bb121818bb121828bb121838bb121848bb121858bb12186cbb121878bb121888bb1218a8bb1218c8bb1218d8bb1218c8bb1218d8bb1218bcb9121850ba121878bb121860bc121874bc121884bc121894bc1218a4bc1218b4bc121810bd121820bd121830bd121840bd121850bd121860bd121870bd121880bd12189cbd1218b0bd1218c0bd1218c8bd1218ecbd121808be121818be12181cbe121824be12182cbe121834be121838be121894be1218a4be1218f8be121898e9121808bf121818bf121828bf121838bf121840bf121848bf121850bf121858bf121868bf121878bf1218a0bf1218e0bf121814c012181cc012182cc0121844c0121858c0121868c0121880c01218a0c01218c0c01218d4c01218d8c01218dcc01218e0c01218e4c0121818be1218e8c01218f0c0121818c1121840c1121850c112185cc112186cc112187cc112189cc11218acc11218bcc11218c8c11218e0c1121804c2121844ba121894ba121828c2121838c2121848c2121858c2121868c2121878c2121888c2121894c212189cc21218b8c21218ccc21218f0c2121800c3121828c3121834c3121850c3121870c312187cc312188cc31218a8c31218b8c31218d4c31218e4c31218f8c312180cc4121820c4121828c4121838c4121848c4121858c4121868c4121810c5121820c51218bcc512183cc7121844c7121868c312185cc7121864c712186cc7121874c7121884c712188cc7121898c71218a0c71218a8c71218b0c71218b8c71218c0c71218ccc71218d4c71218d8c71218e4c71218ecc71218f4c7121800c812180cc8121820c812182cc8121838c8121840c8121850c8121878c8121894c81218a4c8121828c31218c0c81218f8c8121800c9121808c9121810c9121840c9121874c91218a4c91218acc91218b4c91218bcc91218d4c91218e4c912180cca121828ca121830ca121840ca121868ca1218",
+      "purpose": "simplified-Chinese text table without cloud transcription/action prompts"
+    },
+    {
+      "offset": 5796136,
+      "before": "d8ca12186c4d4e1878b9121888b9121898b9121894ca1218a0ca1218a4ca1218a8ca1218b0ca1218b8ca1218c0ca1218c8ca1218ccca1218d0ca1218ecca121834cb121840cb121848cb121854cb12186ccb12187ccb121890cb121898cb1218e0cb1218eccb1218f4cb12180ccc121820cc121830cc121838cc121840cc121850cc121810d312185ccc121878cc121894cc1218a4cc1218b0cc1218e8cc12181ccd1218eccb121810d3121824cd121830cd12183ccd121848cd121854cd12185ccd121888cd121890cd121898cd1218a4cd1218b4cd1218bccd1218c4cd1218d0cd1218e4cd1218eccd1218fccd121808ce121830ce121848ce12185cac4e1854ce121858ce12184c9f4e1860ce121868ce1218a0ce1218acce1218e0ce1218e8ce1218f0ce1218f8ce121808cf121814cf12181ccf121824cf121830cf121838cf121844cf121850cf121884cf1218c4cf121804d0121808d0121810d0121824d0121824cf121838d0121848d0121860d0121878d012188cd0121894d012189cd01218a0d01218a8d01218acd01218b4d01218b8d01218d0d01218e8d01218f4d01218fcd0121808d1121810d1121824d1121840d112184cd1121858d112186cd112188cd112181ccd1218a8d11218b4d11218c0d11218c8d112188cd0121894d012189cd01218d0d11218d8d11218dcd11218f4d1121804d2121810d212181cd2121830d2121838d2121850d212186cd2121870d2121878d2121884d2121890d21218a0d21218acd21218c0d21218d4d21218e0d21218ecd2121800d312180cd31218fccd12181cd31218f8d3121800d41218dcd4121808d7121814d71218e0ce121824d7121834d7121844d7121854d7121868d7121874d7121880d712188cd7121894d712189cd71218a4d71218acd71218b4d71218d4c71218c0d71218d0d71218d8d71218e0d71218e8d71218f4d7121804d8121810d8121818d8121820d8121834d812184cd8121860d8121874d8121830d2121880d81218d4d81218dcd81218e8d81218f4d8121800d91218f4d81218a4c9121818d9121820d9121828d9121834d9121844d9121854d91218fca14d1864d9121878d91218a8d91218",
+      "after": "68b912186c4d4e1878b9121888b9121898b91218a0b91218b4b91218b8b91218bcb91218c4b91218ccb91218d4b91218dcb91218e4b91218ecb912180cba121844ba121850ba121860ba121878ba1218a4ba1218bcba1218d4ba12180cba1218e8ba1218f8ba121808bb121818bb121828bb121838bb121848bb121858bb12186cbb121878bb121888bb1218a8bb1218c8bb1218d8bb1218c8bb1218d8bb1218bcb9121850ba121878bb121860bc121874bc121884bc121894bc1218a4bc1218b4bc121810bd121820bd121830bd121840bd121850bd121860bd121870bd121880bd12189cbd1218b0bd1218c0bd1218c8bd1218ecbd121808be121818be12181cbe121824be12182cbe121834be121838be121894be1218a4be1218f8be121898e9121808bf121818bf121828bf121838bf121840bf121848bf121850bf121858bf121868bf121878bf1218a0bf1218e0bf121814c012181cc012182cc0121844c0121858c0121868c0121880c01218a0c01218c0c01218d4c01218d8c01218dcc01218e0c01218e4c0121818be1218e8c01218f0c0121818c1121840c1121850c112185cc112186cc112187cc112189cc11218acc11218bcc11218c8c11218e0c1121804c2121844ba121894ba121828c2121838c2121848c2121858c2121868c2121878c2121888c2121894c212189cc21218b8c21218ccc21218f0c2121800c3121828c3121834c3121850c3121870c312187cc312188cc31218a8c31218b8c31218d4c31218e4c31218f8c312180cc4121820c4121828c4121838c4121848c4121858c4121868c4121810c5121820c51218bcc512183cc7121844c7121868c312185cc7121864c712186cc7121874c7121884c712188cc7121898c71218a0c71218a8c71218b0c71218b8c71218c0c71218ccc71218d4c71218d8c71218e4c71218ecc71218f4c7121800c812180cc8121820c812182cc8121838c8121840c8121850c8121878c8121894c81218a4c8121828c31218c0c81218f8c8121800c9121808c9121810c9121840c9121874c91218a4c91218acc91218b4c91218bcc91218d4c91218e4c912180cca121828ca121830ca121840ca121868ca1218",
+      "purpose": "replace English UI table with simplified Chinese"
+    },
+    {
+      "offset": 5796936,
+      "before": "e0d912186c4d4e1878b9121888b9121898b91218f0d91218b4b91218b8b9121804da1218c4b91218ccb912180cda121814da12181cda121824da121844da12187cda121888da121898da1218b0da1218dcda1218f4da12180cdb121844da121820db121830db121840db121850db121860db121870db121880db121890db12186cbb1218a4db1218b4db1218d4db1218f4db121804dc121814dc121848dc12187cdc121888da1218a4db12188cdc1218a0dc121884bc1218b0dc1218c0dc1218d0dc121810bd12182cdd12183cdd12184cdd12185cdd12186cdd12187cdd12188cdd1218a8dd1218bcdd1218ccdd1218d4dd1218f8dd121814de121818be121824de121824be12182cde121834de121838de121894de1218a4de1218f8de121898e9121808df121818df121828df121838df121840df121848df121850df121858df121868df121878df1218a0df1218e0df121814e012181cc012181ce0121834e0121848e0121858e0121870e0121890e01218b0e01218d4c01218d8c01218dcc01218c4e01218e4c0121818be1218c8e01218d0e01218f4e0121818e1121850c1121828e1121838e1121848e1121868e1121878e1121888e1121894e11218ace11218d0e112187cda1218ccda1218f4e1121804e2121814e2121824e2121834e2121844e2121888c2121854e212189cc212185ce2121870e2121894e21218a4e2121828c31218cce21218e8e2121870c3121808e3121818e3121834e3121844e3121860e3121870e3121884e3121898e3121820c41218a8e31218b8e31218c8e31218d8e31218e8e3121890e41218a0e412183ce51218c0e61218c8e6121868c312185cc71218e0e61218e8e61218f0e6121800e7121808e7121898c71218a0c71218a8c7121814e712181ce7121824e7121830e71218d4c7121838e71218e4c7121844e712184ce7121858e7121864e7121878e712182cc8121884e712188ce7121850c812189ce71218b8e71218c8e7121828c31218e4e712181ce8121824e812182ce8121834e8121860e8121894e81218a4c91218acc91218d0e81218d8e81218f0e8121800e9121828e9121828ca121844e9121854e912187ce91218",
+      "after": "68b912186c4d4e1878b9121888b9121898b91218a0b91218b4b91218b8b91218bcb91218c4b91218ccb91218d4b91218dcb91218e4b91218ecb912180cba121844ba121850ba121860ba121878ba1218a4ba1218bcba1218d4ba12180cba1218e8ba1218f8ba121808bb121818bb121828bb121838bb121848bb121858bb12186cbb121878bb121888bb1218a8bb1218c8bb1218d8bb1218c8bb1218d8bb1218bcb9121850ba121878bb121860bc121874bc121884bc121894bc1218a4bc1218b4bc121810bd121820bd121830bd121840bd121850bd121860bd121870bd121880bd12189cbd1218b0bd1218c0bd1218c8bd1218ecbd121808be121818be12181cbe121824be12182cbe121834be121838be121894be1218a4be1218f8be121898e9121808bf121818bf121828bf121838bf121840bf121848bf121850bf121858bf121868bf121878bf1218a0bf1218e0bf121814c012181cc012182cc0121844c0121858c0121868c0121880c01218a0c01218c0c01218d4c01218d8c01218dcc01218e0c01218e4c0121818be1218e8c01218f0c0121818c1121840c1121850c112185cc112186cc112187cc112189cc11218acc11218bcc11218c8c11218e0c1121804c2121844ba121894ba121828c2121838c2121848c2121858c2121868c2121878c2121888c2121894c212189cc21218b8c21218ccc21218f0c2121800c3121828c3121834c3121850c3121870c312187cc312188cc31218a8c31218b8c31218d4c31218e4c31218f8c312180cc4121820c4121828c4121838c4121848c4121858c4121868c4121810c5121820c51218bcc512183cc7121844c7121868c312185cc7121864c712186cc7121874c7121884c712188cc7121898c71218a0c71218a8c71218b0c71218b8c71218c0c71218ccc71218d4c71218d8c71218e4c71218ecc71218f4c7121800c812180cc8121820c812182cc8121838c8121840c8121850c8121878c8121894c81218a4c8121828c31218c0c81218f8c8121800c9121808c9121810c9121840c9121874c91218a4c91218acc91218b4c91218bcc91218d4c91218e4c912180cca121828ca121830ca121840ca121868ca1218",
+      "purpose": "replace Traditional Chinese UI table with simplified Chinese"
+    }
+  ],
+  "preserved": {
+    "before_osa": true,
+    "osb_and_dspext": true,
+    "v84_helper": true
+  },
+  "resc": {
+    "offset": 131072,
+    "image_bytes": 5707464,
+    "digest_offset": 5838532,
+    "jshash": "0x699eb1ca"
+  },
+  "ap": {
+    "ssid": "C208-Setup",
+    "password": null,
+    "channel": 6,
+    "ip": "192.168.84.1",
+    "lease_count": 4,
+    "timeout_seconds": 300
+  },
+  "configuration_files": [
+    "/C208WIF0.CFG",
+    "/C208WIF1.CFG"
+  ],
+  "password_limit_bytes": 32,
+  "limitations": [
+    "No physical device scan/AP/client association test for V0095 yet.",
+    "Scan result caching requires 12KiB BSS; free heap and radio timing need device verification.",
+    "Rescan briefly closes/reopens C208-Setup; reconnect phone after it completes.",
+    "Scan uses original synchronous driver calls; cancellation waits for those calls to return.",
+    "No captive portal DNS or automatic popup; open http://192.168.84.1/ manually.",
+    "Saved networks reconnect on boot; failed boot connection does not automatically expose a provisioning hotspot.",
+    "Local web management has device/network status and re-provisioning; no recording/file or remote-cloud management.",
+    "No Android app, cloud-service restoration or Xiaozhi feature in this package."
+  ],
+  "purpose": "Remove retired companion guides/file sync and force simplified Chinese, preserving V0095 networking",
+  "contains_factory_menu_extension": false,
+  "contains_wifi_extension": true,
+  "settings_icon": "32x32 RGB565 Wi-Fi symbol",
+  "network_fix": "On tcpip_thread: stop DHCP client, set AP address, netif_set_up; verify AP IP and UP flag",
+  "failure_status": "AP 网络接口未就绪",
+  "known_hardware_status": "User reports V0094 connects after reboot; V0095/V0096 physical validation pending",
+  "diagnostic_file": "/WIFIDBG.TXT",
+  "power_ack_timeout_ms": 5000,
+  "ui_update": "Update live labels without destroying the page; restore prior idle setting on exit",
+  "boot_autoconnect": true,
+  "boot_marker": "BOOT_V0096",
+  "ap_driver_fix": "Only provisioning-owned AP uses zero key length => OPEN; uses original inner init/start functions",
+  "ap_bus_failure": "Branch into original AP initializer error cleanup with returned bus status",
+  "scan_max_networks": 16,
+  "web_page_sha256": "9241ef1a8b986dfb03dfd7ee4f7f78b23ec2e62230cd7f472bf8fde225ee56f5",
+  "scan_policy": "Scan wlan0 before AP; retain STA interface and initialized WICED core, never set wlan0 to NONE",
+  "scan_firmware_api": "0x1809de8c; 60-byte records; original mode-NONE callback at 0x180855dc calls hardware deinit",
+  "http_endpoints": [
+    "GET /",
+    "GET /networks (AP)",
+    "POST /configure (AP)",
+    "POST /scan (AP)",
+    "GET /status (STA)",
+    "POST /provision (STA)"
+  ],
+  "native_ui": "V0094 four rows: status, AP toggle, browser IP, back",
+  "device_info": {
+    "version": "ZhiyinOS 1.0.1 V0096",
+    "author": "By清风惹尘丶",
+    "layout_y": {
+      "firmware_heading": 144,
+      "firmware_value": 172,
+      "author": 208
+    },
+    "version_visible_without_taps": true
+  },
+  "captive_portal": {
+    "enabled": false,
+    "dns": null,
+    "dhcp_dns_option": null,
+    "http_redirect": null,
+    "os_popup_verified": false
+  },
+  "reference_base_version": 95,
+  "reference_base_package_sha256": "b85806d20385a3d824d3e2d1270290665cb3d52cfd15143242d11ad384fcf78e",
+  "management_page_sha256": "acc96ae0a4e1526cd2c52f94f4962afed66b9c18c341569d1b878fc375038880",
+  "station_mode_fix": "Refresh original STA driver mode callback even when management considers wlan0 already initialized",
+  "trim": {
+    "removed": [
+      "retired Sogou App QR/welcome/connect guides",
+      "post-record App transcription nag/action",
+      "legacy Wi-Fi WebSocket transfer threads and radio-transition handler",
+      "legacy BLE file payload download/mark-synced callbacks",
+      "language selector"
+    ],
+    "language": "zh-CN only",
+    "language_tables_all_simplified": true,
+    "legacy_wsc_stack_requests_prevented_bytes": [
+      4096,
+      2048
+    ],
+    "confirmed_runtime_ram_reclaimed_bytes": null,
+    "compacted_flash_bytes": 0,
+    "resource_note": "Existing non-Chinese literals/fonts remain at linked addresses; UI lookup tables and getter/setter enforce zh-CN. No mass compaction.",
+    "preserved": [
+      "local recording/playback/USB",
+      "V0095 Wi-Fi scan, DHCP IP and local management",
+      "local OTA/recovery",
+      "audio DSP/codecs",
+      "local microphone modes"
+    ],
+    "local_only_disclaimer": "Old companion file-sync is disabled, including BLE file payload/mark-synced; BLE FOTA and other local modes are not removed."
+  }
+}

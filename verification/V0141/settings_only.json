@@ -1,0 +1,19 @@
+{
+  "version": 141,
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "checks": {
+    "V0131_shared_style_removed_and_V0130_audio_MP3_boot_sources_preserved": true,
+    "RAM_reservation_BSS_clear_and_heap_boundary_match_V0130": true,
+    "settings_font_color_geometry_and_two_clickable_icons_use_native_valid_styles": true,
+    "microphone_icon_opens_modes_and_gear_icon_opens_native_settings": true,
+    "all_styles_keep_native_marker_until_parent_destroy_no_predelete_memset": true,
+    "twenty_menu_picker_exit_cycles_release_native_style_slots_after_UI_destroy": true,
+    "icon_allocation_failure_keeps_settings_text_and_mode_navigation_available": true
+  },
+  "maximum_additional_native_style_slots": 2,
+  "physical_device_verified": false,
+  "limitations": [
+    "Actual settings ARM, original style-copy/check/reset functions execute; GUI allocation, destruction and scheduling boundaries are modeled.",
+    "No board cold boot or physical recovery has been observed."
+  ]
+}

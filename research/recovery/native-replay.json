@@ -1,0 +1,288 @@
+{
+  "original_sha256": "20d63efd687fdfbf76ae979bc04ca472162d07d5f6addc1c53fc9e21ed7cb204",
+  "ota_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "manual_select_rec_without_ota": {
+    "actual_native_helpers_executed": true,
+    "slots_after": {
+      "A": {
+        "priority": 14,
+        "tries_remaining": 3,
+        "successful_boot": 0,
+        "reserved": 0
+      },
+      "B": {
+        "priority": 15,
+        "tries_remaining": 3,
+        "successful_boot": 0,
+        "reserved": 0
+      }
+    },
+    "exhausted_rec_refused": true
+  },
+  "original_SPL_boot_trials": {
+    "actual_selection_instructions_executed": true,
+    "reset_between_attempts_is_assumed": true,
+    "attempts": [
+      {
+        "selected_image": "A",
+        "slots_after": {
+          "A": {
+            "priority": 15,
+            "tries_remaining": 2,
+            "successful_boot": 0,
+            "reserved": 0
+          },
+          "B": {
+            "priority": 14,
+            "tries_remaining": 0,
+            "successful_boot": 1,
+            "reserved": 0
+          }
+        },
+        "events": [
+          {
+            "operation": "modeled_metadata_save",
+            "slots": {
+              "A": {
+                "priority": 15,
+                "tries_remaining": 2,
+                "successful_boot": 0,
+                "reserved": 0
+              },
+              "B": {
+                "priority": 14,
+                "tries_remaining": 0,
+                "successful_boot": 1,
+                "reserved": 0
+              }
+            }
+          },
+          {
+            "operation": "modeled_image_load",
+            "slot": "A",
+            "original_loader_mode_argument": 1
+          }
+        ]
+      },
+      {
+        "selected_image": "A",
+        "slots_after": {
+          "A": {
+            "priority": 15,
+            "tries_remaining": 1,
+            "successful_boot": 0,
+            "reserved": 0
+          },
+          "B": {
+            "priority": 14,
+            "tries_remaining": 0,
+            "successful_boot": 1,
+            "reserved": 0
+          }
+        },
+        "events": [
+          {
+            "operation": "modeled_metadata_save",
+            "slots": {
+              "A": {
+                "priority": 15,
+                "tries_remaining": 1,
+                "successful_boot": 0,
+                "reserved": 0
+              },
+              "B": {
+                "priority": 14,
+                "tries_remaining": 0,
+                "successful_boot": 1,
+                "reserved": 0
+              }
+            }
+          },
+          {
+            "operation": "modeled_image_load",
+            "slot": "A",
+            "original_loader_mode_argument": 1
+          }
+        ]
+      },
+      {
+        "selected_image": "A",
+        "slots_after": {
+          "A": {
+            "priority": 15,
+            "tries_remaining": 0,
+            "successful_boot": 0,
+            "reserved": 0
+          },
+          "B": {
+            "priority": 14,
+            "tries_remaining": 0,
+            "successful_boot": 1,
+            "reserved": 0
+          }
+        },
+        "events": [
+          {
+            "operation": "modeled_metadata_save",
+            "slots": {
+              "A": {
+                "priority": 15,
+                "tries_remaining": 0,
+                "successful_boot": 0,
+                "reserved": 0
+              },
+              "B": {
+                "priority": 14,
+                "tries_remaining": 0,
+                "successful_boot": 1,
+                "reserved": 0
+              }
+            }
+          },
+          {
+            "operation": "modeled_image_load",
+            "slot": "A",
+            "original_loader_mode_argument": 1
+          }
+        ]
+      },
+      {
+        "selected_image": "B",
+        "slots_after": {
+          "A": {
+            "priority": 0,
+            "tries_remaining": 0,
+            "successful_boot": 0,
+            "reserved": 0
+          },
+          "B": {
+            "priority": 14,
+            "tries_remaining": 0,
+            "successful_boot": 1,
+            "reserved": 0
+          }
+        },
+        "events": [
+          {
+            "operation": "modeled_metadata_save",
+            "slots": {
+              "A": {
+                "priority": 0,
+                "tries_remaining": 0,
+                "successful_boot": 0,
+                "reserved": 0
+              },
+              "B": {
+                "priority": 14,
+                "tries_remaining": 0,
+                "successful_boot": 1,
+                "reserved": 0
+              }
+            }
+          },
+          {
+            "operation": "modeled_image_load",
+            "slot": "B",
+            "original_loader_mode_argument": 0
+          }
+        ]
+      }
+    ]
+  },
+  "original_main_init_acknowledgement": {
+    "native_init_thread_executed": true,
+    "component_initialization_is_modeled": true,
+    "slots_after": {
+      "A": {
+        "priority": 15,
+        "tries_remaining": 0,
+        "successful_boot": 1,
+        "reserved": 0
+      },
+      "B": {
+        "priority": 14,
+        "tries_remaining": 0,
+        "successful_boot": 1,
+        "reserved": 0
+      }
+    },
+    "next_boot_still_A": true,
+    "UI_or_audio_health_is_not_checked_by_this_slot_ack_path": true
+  },
+  "original_rec_without_package": {
+    "main_previously_successful": {
+      "events": [
+        {
+          "operation": "modeled_select_slot",
+          "slot_argument": 0
+        },
+        {
+          "operation": "modeled_reboot_request"
+        }
+      ],
+      "logs": [
+        "[D/OTA] ",
+        "%s Enter...",
+        "\n",
+        "[D/OTA] ",
+        "This is ota # LOCAL # update ....",
+        "\n",
+        "[E/OTA] ",
+        "ota update image Fail!!!\n",
+        "\n",
+        "[E/OTA] ",
+        ">>>>>>>> EXIT ota main",
+        "\n",
+        "FOTA.BIN not exist\n"
+      ],
+      "returned": 0
+    },
+    "main_trials_exhausted": {
+      "events": [
+        {
+          "operation": "modeled_maskrom_request"
+        },
+        {
+          "operation": "modeled_reboot_request"
+        }
+      ],
+      "logs": [
+        "[D/OTA] ",
+        "%s Enter...",
+        "\n",
+        "[D/OTA] ",
+        "This is ota # LOCAL # update ....",
+        "\n",
+        "[E/OTA] ",
+        "ota update image Fail!!!\n",
+        "\n",
+        "[E/OTA] ",
+        ">>>>>>>> EXIT ota main",
+        "\n",
+        "[E/OTA] ",
+        "###### Fw A boot never Success,will boot to maskrom! ######\n",
+        "\n"
+      ],
+      "returned": 0
+    }
+  },
+  "rec_space": {
+    "partition_bytes": 524288,
+    "used_including_header_hash": 242760,
+    "zero_tail_bytes": 281528
+  },
+  "USB": {
+    "SDK_reference_enables_mass_storage": true,
+    "shipped_REC_USB_mass_storage_runtime_support": "unverified",
+    "power_manager_USB_strings_do_not_prove_USB_disk_support": true
+  },
+  "physical_device_tested": false,
+  "firmware_modified": false,
+  "limitations": [
+    "SPL metadata read/write, image load and reset are modeled; no complete boot or BootROM runs.",
+    "App metadata SPI/allocator/device calls are modeled; original native read/validate/update helpers execute.",
+    "Rec ota_main decision branches execute; package update failure, slot helpers and reset/MaskROM endpoints are modeled.",
+    "Hardware watchdog coverage, USB enumeration, eMMC exclusivity and power-loss recovery need device validation.",
+    "Normal local OTA does not update OSB; first installation of extended Rec needs a separately validated route."
+  ]
+}

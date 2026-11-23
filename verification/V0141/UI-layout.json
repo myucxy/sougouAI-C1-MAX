@@ -1,0 +1,1639 @@
+{
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "screen": [
+    240,
+    240
+  ],
+  "views": {
+    "player": {
+      "objects": {
+        "538116864": {
+          "kind": "stock_header",
+          "hidden": 1
+        },
+        "538116096": {
+          "kind": "root",
+          "width": 240,
+          "height": 240,
+          "x": 0,
+          "y": 0
+        },
+        "538116608": {
+          "kind": "back",
+          "hidden": 1,
+          "click": 0
+        },
+        "538312960": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 64,
+          "height": 30,
+          "x": 8,
+          "y": 2
+        },
+        "538345472": {
+          "kind": "image",
+          "parent": 538116096,
+          "x": 156,
+          "y": 2,
+          "click": 0,
+          "source": 537066868,
+          "pixels": 538511524,
+          "width": 80,
+          "height": 30
+        },
+        "538313216": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "long_mode": 3,
+          "align": 1,
+          "click": 1,
+          "width": 224,
+          "height": 30,
+          "x": 8,
+          "y": 36
+        },
+        "538313472": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "long_mode": 3,
+          "align": 1,
+          "click": 1,
+          "width": 224,
+          "height": 30,
+          "x": 8,
+          "y": 70
+        },
+        "538313728": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 0,
+          "click": 0,
+          "width": 156,
+          "height": 30,
+          "x": 76,
+          "y": 104
+        },
+        "538345728": {
+          "kind": "image",
+          "parent": 538116096,
+          "x": 36,
+          "y": 105,
+          "click": 1,
+          "ext_click": [
+            4,
+            4,
+            4,
+            3
+          ],
+          "source": 409034848,
+          "pixels": 409038008,
+          "width": 28,
+          "height": 28
+        },
+        "538181888": {
+          "kind": "image_button",
+          "parent": 538116096,
+          "sources": {
+            "0": 404256976,
+            "1": 404269788
+          },
+          "width": 80,
+          "height": 80,
+          "x": 80,
+          "y": 148,
+          "click": 1,
+          "ext_click": [
+            0,
+            0,
+            12,
+            12
+          ]
+        },
+        "538182144": {
+          "kind": "crop",
+          "parent": 538116096,
+          "style": 538308608,
+          "width": 64,
+          "height": 64,
+          "x": 4,
+          "y": 158,
+          "click": 1,
+          "ext_click": [
+            4,
+            12,
+            22,
+            18
+          ]
+        },
+        "538182400": {
+          "kind": "image_button",
+          "parent": 538182144,
+          "sources": {
+            "0": 404310732,
+            "1": 404326104
+          },
+          "width": 120,
+          "height": 64,
+          "x": 4294967268,
+          "y": 0,
+          "click": 0
+        },
+        "538182656": {
+          "kind": "crop",
+          "parent": 538116096,
+          "style": 538308608,
+          "width": 64,
+          "height": 64,
+          "x": 172,
+          "y": 158,
+          "click": 1,
+          "ext_click": [
+            12,
+            4,
+            22,
+            18
+          ]
+        },
+        "538182912": {
+          "kind": "image_button",
+          "parent": 538182656,
+          "sources": {
+            "0": 404226232,
+            "1": 404241604
+          },
+          "width": 120,
+          "height": 64,
+          "x": 4294967268,
+          "y": 0,
+          "click": 0
+        },
+        "538183168": {
+          "kind": "arc",
+          "parent": 538116096,
+          "style": 536944252,
+          "width": 104,
+          "height": 104,
+          "x": 68,
+          "y": 136,
+          "click": 0,
+          "angles": [
+            0,
+            360
+          ]
+        },
+        "538183424": {
+          "kind": "arc",
+          "parent": 538116096,
+          "style": 536944316,
+          "width": 104,
+          "height": 104,
+          "x": 68,
+          "y": 136,
+          "click": 0,
+          "hidden": 0,
+          "angles": [
+            270,
+            354
+          ]
+        }
+      },
+      "labels": {
+        "538312960": "列表",
+        "538313216": "测试歌曲.MP3",
+        "538313472": "正在播放",
+        "538313728": "0:42 / 3:00"
+      },
+      "preview": "MP3全屏播放器-软件预览.png"
+    },
+    "list": {
+      "objects": {
+        "538116864": {
+          "kind": "stock_header",
+          "hidden": 1
+        },
+        "538116096": {
+          "kind": "root",
+          "width": 240,
+          "height": 240,
+          "x": 0,
+          "y": 0
+        },
+        "538116608": {
+          "kind": "back",
+          "hidden": 1,
+          "click": 0
+        },
+        "538312960": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 64,
+          "height": 30,
+          "x": 8,
+          "y": 2
+        },
+        "538345472": {
+          "kind": "image",
+          "parent": 538116096,
+          "x": 156,
+          "y": 2,
+          "click": 0,
+          "source": 537066868,
+          "pixels": 538511524,
+          "width": 80,
+          "height": 30
+        },
+        "538313216": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "long_mode": 3,
+          "align": 1,
+          "click": 1,
+          "width": 224,
+          "height": 30,
+          "x": 8,
+          "y": 36
+        },
+        "538313472": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "long_mode": 3,
+          "align": 1,
+          "click": 1,
+          "width": 224,
+          "height": 30,
+          "x": 8,
+          "y": 70
+        },
+        "538313728": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 0,
+          "click": 0,
+          "width": 156,
+          "height": 30,
+          "x": 76,
+          "y": 104
+        },
+        "538345728": {
+          "kind": "image",
+          "parent": 538116096,
+          "x": 36,
+          "y": 105,
+          "click": 1,
+          "ext_click": [
+            4,
+            4,
+            4,
+            3
+          ],
+          "source": 409034848,
+          "pixels": 409038008,
+          "width": 28,
+          "height": 28
+        },
+        "538181888": {
+          "kind": "image_button",
+          "parent": 538116096,
+          "sources": {
+            "0": 404256976,
+            "1": 404269788
+          },
+          "width": 80,
+          "height": 80,
+          "x": 80,
+          "y": 148,
+          "click": 1,
+          "ext_click": [
+            0,
+            0,
+            12,
+            12
+          ]
+        },
+        "538182144": {
+          "kind": "crop",
+          "parent": 538116096,
+          "style": 538308608,
+          "width": 64,
+          "height": 64,
+          "x": 4,
+          "y": 158,
+          "click": 1,
+          "ext_click": [
+            4,
+            12,
+            22,
+            18
+          ]
+        },
+        "538182400": {
+          "kind": "image_button",
+          "parent": 538182144,
+          "sources": {
+            "0": 404310732,
+            "1": 404326104
+          },
+          "width": 120,
+          "height": 64,
+          "x": 4294967268,
+          "y": 0,
+          "click": 0
+        },
+        "538182656": {
+          "kind": "crop",
+          "parent": 538116096,
+          "style": 538308608,
+          "width": 64,
+          "height": 64,
+          "x": 172,
+          "y": 158,
+          "click": 1,
+          "ext_click": [
+            12,
+            4,
+            22,
+            18
+          ]
+        },
+        "538182912": {
+          "kind": "image_button",
+          "parent": 538182656,
+          "sources": {
+            "0": 404226232,
+            "1": 404241604
+          },
+          "width": 120,
+          "height": 64,
+          "x": 4294967268,
+          "y": 0,
+          "click": 0
+        },
+        "538183168": {
+          "kind": "arc",
+          "parent": 538116096,
+          "style": 536944252,
+          "width": 104,
+          "height": 104,
+          "x": 68,
+          "y": 136,
+          "click": 0,
+          "angles": [
+            0,
+            360
+          ]
+        },
+        "538183424": {
+          "kind": "arc",
+          "parent": 538116096,
+          "style": 536944316,
+          "width": 104,
+          "height": 104,
+          "x": 68,
+          "y": 136,
+          "click": 0,
+          "hidden": 0,
+          "angles": [
+            270,
+            354
+          ]
+        },
+        "538183680": {
+          "kind": "crop",
+          "parent": 538116096,
+          "style": 538308608,
+          "width": 240,
+          "height": 240,
+          "x": 0,
+          "y": 0,
+          "click": 1,
+          "hidden": 0
+        },
+        "538313984": {
+          "kind": "label",
+          "parent": 538183680,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 1,
+          "click": 1,
+          "width": 64,
+          "height": 30,
+          "x": 0,
+          "y": 2
+        },
+        "538314240": {
+          "kind": "label",
+          "parent": 538183680,
+          "style": 538308608,
+          "long_mode": 3,
+          "align": 1,
+          "click": 0,
+          "width": 160,
+          "height": 30,
+          "x": 72,
+          "y": 2
+        },
+        "538116352": {
+          "kind": "list",
+          "parent": 538183680,
+          "width": 240,
+          "height": 166,
+          "x": 0,
+          "y": 36
+        },
+        "538120448": {
+          "kind": "row",
+          "parent": 538116352,
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 40,
+          "click": 1,
+          "hidden": 0
+        },
+        "538120576": {
+          "kind": "label",
+          "parent": 538120448,
+          "long_mode": 3,
+          "width": 208,
+          "height": 30,
+          "click": 0
+        },
+        "538120704": {
+          "kind": "row",
+          "parent": 538116352,
+          "x": 0,
+          "y": 40,
+          "width": 240,
+          "height": 40,
+          "click": 1,
+          "hidden": 0
+        },
+        "538120832": {
+          "kind": "label",
+          "parent": 538120704,
+          "long_mode": 3,
+          "width": 208,
+          "height": 30,
+          "click": 0
+        },
+        "538120960": {
+          "kind": "row",
+          "parent": 538116352,
+          "x": 0,
+          "y": 80,
+          "width": 240,
+          "height": 40,
+          "click": 1,
+          "hidden": 0
+        },
+        "538121088": {
+          "kind": "label",
+          "parent": 538120960,
+          "long_mode": 3,
+          "width": 208,
+          "height": 30,
+          "click": 0
+        },
+        "538121216": {
+          "kind": "row",
+          "parent": 538116352,
+          "x": 0,
+          "y": 120,
+          "width": 240,
+          "height": 40,
+          "click": 1,
+          "hidden": 0
+        },
+        "538121344": {
+          "kind": "label",
+          "parent": 538121216,
+          "long_mode": 3,
+          "width": 208,
+          "height": 30,
+          "click": 0
+        },
+        "538121472": {
+          "kind": "row",
+          "parent": 538116352,
+          "x": 0,
+          "y": 160,
+          "width": 240,
+          "height": 40,
+          "click": 1,
+          "hidden": 0
+        },
+        "538121600": {
+          "kind": "label",
+          "parent": 538121472,
+          "long_mode": 3,
+          "width": 208,
+          "height": 30,
+          "click": 0
+        },
+        "538121728": {
+          "kind": "row",
+          "parent": 538116352,
+          "x": 0,
+          "y": 200,
+          "width": 240,
+          "height": 40,
+          "click": 1,
+          "hidden": 0
+        },
+        "538121856": {
+          "kind": "label",
+          "parent": 538121728,
+          "long_mode": 3,
+          "width": 208,
+          "height": 30,
+          "click": 0
+        },
+        "538314496": {
+          "kind": "label",
+          "parent": 538183680,
+          "style": 538308608,
+          "long_mode": 3,
+          "align": 1,
+          "click": 0,
+          "width": 224,
+          "height": 30,
+          "x": 8,
+          "y": 96,
+          "hidden": 1
+        },
+        "538314752": {
+          "kind": "label",
+          "parent": 538183680,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 1,
+          "click": 1,
+          "width": 90,
+          "height": 30,
+          "x": 0,
+          "y": 206
+        },
+        "538315008": {
+          "kind": "label",
+          "parent": 538183680,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 1,
+          "click": 1,
+          "width": 60,
+          "height": 30,
+          "x": 90,
+          "y": 206
+        },
+        "538315264": {
+          "kind": "label",
+          "parent": 538183680,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 1,
+          "click": 1,
+          "width": 90,
+          "height": 30,
+          "x": 150,
+          "y": 206
+        }
+      },
+      "labels": {
+        "538312960": "列表",
+        "538313216": "测试歌曲.MP3",
+        "538313472": "正在播放",
+        "538313728": "0:42 / 3:00",
+        "538313984": "返回",
+        "538314240": "歌曲列表",
+        "538120576": "one.mp3",
+        "538120832": "测试歌曲.MP3",
+        "538121088": "two.mp3",
+        "538121344": "three.mp3",
+        "538121600": "four.mp3",
+        "538121856": "five.mp3",
+        "538314496": "正在播放",
+        "538314752": "上一页",
+        "538315008": "刷新",
+        "538315264": "下一页"
+      },
+      "preview": "MP3歌曲列表-软件预览.png"
+    },
+    "confirm": {
+      "objects": {
+        "538116864": {
+          "kind": "stock_header",
+          "hidden": 1
+        },
+        "538116096": {
+          "kind": "root",
+          "width": 240,
+          "height": 240,
+          "x": 0,
+          "y": 0
+        },
+        "538116608": {
+          "kind": "back",
+          "hidden": 1,
+          "click": 0
+        },
+        "538312960": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 64,
+          "height": 30,
+          "x": 8,
+          "y": 2
+        },
+        "538345472": {
+          "kind": "image",
+          "parent": 538116096,
+          "x": 156,
+          "y": 2,
+          "click": 0,
+          "source": 537066868,
+          "pixels": 538511524,
+          "width": 80,
+          "height": 30
+        },
+        "538313216": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "long_mode": 3,
+          "align": 1,
+          "click": 1,
+          "width": 224,
+          "height": 30,
+          "x": 8,
+          "y": 36
+        },
+        "538313472": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "long_mode": 3,
+          "align": 1,
+          "click": 1,
+          "width": 224,
+          "height": 30,
+          "x": 8,
+          "y": 70
+        },
+        "538313728": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 0,
+          "click": 0,
+          "width": 156,
+          "height": 30,
+          "x": 76,
+          "y": 104
+        },
+        "538345728": {
+          "kind": "image",
+          "parent": 538116096,
+          "x": 36,
+          "y": 105,
+          "click": 1,
+          "ext_click": [
+            4,
+            4,
+            4,
+            3
+          ],
+          "source": 409034848,
+          "pixels": 409038008,
+          "width": 28,
+          "height": 28
+        },
+        "538181888": {
+          "kind": "image_button",
+          "parent": 538116096,
+          "sources": {
+            "0": 404256976,
+            "1": 404269788
+          },
+          "width": 80,
+          "height": 80,
+          "x": 80,
+          "y": 148,
+          "click": 1,
+          "ext_click": [
+            0,
+            0,
+            12,
+            12
+          ]
+        },
+        "538182144": {
+          "kind": "crop",
+          "parent": 538116096,
+          "style": 538308608,
+          "width": 64,
+          "height": 64,
+          "x": 4,
+          "y": 158,
+          "click": 1,
+          "ext_click": [
+            4,
+            12,
+            22,
+            18
+          ]
+        },
+        "538182400": {
+          "kind": "image_button",
+          "parent": 538182144,
+          "sources": {
+            "0": 404310732,
+            "1": 404326104
+          },
+          "width": 120,
+          "height": 64,
+          "x": 4294967268,
+          "y": 0,
+          "click": 0
+        },
+        "538182656": {
+          "kind": "crop",
+          "parent": 538116096,
+          "style": 538308608,
+          "width": 64,
+          "height": 64,
+          "x": 172,
+          "y": 158,
+          "click": 1,
+          "ext_click": [
+            12,
+            4,
+            22,
+            18
+          ]
+        },
+        "538182912": {
+          "kind": "image_button",
+          "parent": 538182656,
+          "sources": {
+            "0": 404226232,
+            "1": 404241604
+          },
+          "width": 120,
+          "height": 64,
+          "x": 4294967268,
+          "y": 0,
+          "click": 0
+        },
+        "538183168": {
+          "kind": "arc",
+          "parent": 538116096,
+          "style": 536944252,
+          "width": 104,
+          "height": 104,
+          "x": 68,
+          "y": 136,
+          "click": 0,
+          "angles": [
+            0,
+            360
+          ]
+        },
+        "538183424": {
+          "kind": "arc",
+          "parent": 538116096,
+          "style": 536944316,
+          "width": 104,
+          "height": 104,
+          "x": 68,
+          "y": 136,
+          "click": 0,
+          "hidden": 0,
+          "angles": [
+            270,
+            354
+          ]
+        },
+        "538183680": {
+          "kind": "crop",
+          "parent": 538116096,
+          "style": 538308608,
+          "width": 240,
+          "height": 240,
+          "x": 0,
+          "y": 0,
+          "click": 1,
+          "hidden": 1
+        },
+        "538313984": {
+          "kind": "label",
+          "parent": 538183680,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 1,
+          "click": 1,
+          "width": 64,
+          "height": 30,
+          "x": 0,
+          "y": 2
+        },
+        "538314240": {
+          "kind": "label",
+          "parent": 538183680,
+          "style": 538308608,
+          "long_mode": 3,
+          "align": 1,
+          "click": 0,
+          "width": 160,
+          "height": 30,
+          "x": 72,
+          "y": 2
+        },
+        "538116352": {
+          "kind": "list",
+          "parent": 538183680,
+          "width": 240,
+          "height": 166,
+          "x": 0,
+          "y": 36
+        },
+        "538120448": {
+          "kind": "row",
+          "parent": 538116352,
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 40,
+          "click": 1,
+          "hidden": 0
+        },
+        "538120576": {
+          "kind": "label",
+          "parent": 538120448,
+          "long_mode": 3,
+          "width": 208,
+          "height": 30,
+          "click": 0
+        },
+        "538120704": {
+          "kind": "row",
+          "parent": 538116352,
+          "x": 0,
+          "y": 40,
+          "width": 240,
+          "height": 40,
+          "click": 1,
+          "hidden": 0
+        },
+        "538120832": {
+          "kind": "label",
+          "parent": 538120704,
+          "long_mode": 3,
+          "width": 208,
+          "height": 30,
+          "click": 0
+        },
+        "538120960": {
+          "kind": "row",
+          "parent": 538116352,
+          "x": 0,
+          "y": 80,
+          "width": 240,
+          "height": 40,
+          "click": 1,
+          "hidden": 0
+        },
+        "538121088": {
+          "kind": "label",
+          "parent": 538120960,
+          "long_mode": 3,
+          "width": 208,
+          "height": 30,
+          "click": 0
+        },
+        "538121216": {
+          "kind": "row",
+          "parent": 538116352,
+          "x": 0,
+          "y": 120,
+          "width": 240,
+          "height": 40,
+          "click": 1,
+          "hidden": 0
+        },
+        "538121344": {
+          "kind": "label",
+          "parent": 538121216,
+          "long_mode": 3,
+          "width": 208,
+          "height": 30,
+          "click": 0
+        },
+        "538121472": {
+          "kind": "row",
+          "parent": 538116352,
+          "x": 0,
+          "y": 160,
+          "width": 240,
+          "height": 40,
+          "click": 1,
+          "hidden": 0
+        },
+        "538121600": {
+          "kind": "label",
+          "parent": 538121472,
+          "long_mode": 3,
+          "width": 208,
+          "height": 30,
+          "click": 0
+        },
+        "538121728": {
+          "kind": "row",
+          "parent": 538116352,
+          "x": 0,
+          "y": 200,
+          "width": 240,
+          "height": 40,
+          "click": 1,
+          "hidden": 0
+        },
+        "538121856": {
+          "kind": "label",
+          "parent": 538121728,
+          "long_mode": 3,
+          "width": 208,
+          "height": 30,
+          "click": 0
+        },
+        "538314496": {
+          "kind": "label",
+          "parent": 538183680,
+          "style": 538308608,
+          "long_mode": 3,
+          "align": 1,
+          "click": 0,
+          "width": 224,
+          "height": 30,
+          "x": 8,
+          "y": 96,
+          "hidden": 1
+        },
+        "538314752": {
+          "kind": "label",
+          "parent": 538183680,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 1,
+          "click": 1,
+          "width": 90,
+          "height": 30,
+          "x": 0,
+          "y": 206
+        },
+        "538315008": {
+          "kind": "label",
+          "parent": 538183680,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 1,
+          "click": 1,
+          "width": 60,
+          "height": 30,
+          "x": 90,
+          "y": 206
+        },
+        "538315264": {
+          "kind": "label",
+          "parent": 538183680,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 1,
+          "click": 1,
+          "width": 90,
+          "height": 30,
+          "x": 150,
+          "y": 206
+        },
+        "538183936": {
+          "kind": "crop",
+          "parent": 538116096,
+          "style": 538308608,
+          "width": 240,
+          "height": 240,
+          "x": 0,
+          "y": 0,
+          "click": 1,
+          "hidden": 0
+        },
+        "538315520": {
+          "kind": "label",
+          "parent": 538183936,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 1,
+          "click": 0,
+          "width": 224,
+          "height": 30,
+          "x": 8,
+          "y": 16
+        },
+        "538315776": {
+          "kind": "label",
+          "parent": 538183936,
+          "style": 538308608,
+          "long_mode": 3,
+          "align": 1,
+          "click": 0,
+          "width": 224,
+          "height": 30,
+          "x": 8,
+          "y": 76
+        },
+        "538316032": {
+          "kind": "label",
+          "parent": 538183936,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 1,
+          "click": 0,
+          "width": 224,
+          "height": 30,
+          "x": 8,
+          "y": 126
+        },
+        "538316288": {
+          "kind": "label",
+          "parent": 538183936,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 1,
+          "click": 1,
+          "width": 80,
+          "height": 42,
+          "x": 16,
+          "y": 180,
+          "hidden": 0
+        },
+        "538316544": {
+          "kind": "label",
+          "parent": 538183936,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 1,
+          "click": 1,
+          "width": 80,
+          "height": 42,
+          "x": 144,
+          "y": 180,
+          "hidden": 0
+        }
+      },
+      "labels": {
+        "538312960": "列表",
+        "538313216": "测试歌曲.MP3",
+        "538313472": "正在播放",
+        "538313728": "0:42 / 3:00",
+        "538313984": "返回",
+        "538314240": "歌曲列表",
+        "538120576": "one.mp3",
+        "538120832": "测试歌曲.MP3",
+        "538121088": "two.mp3",
+        "538121344": "three.mp3",
+        "538121600": "four.mp3",
+        "538121856": "five.mp3",
+        "538314496": "正在播放",
+        "538314752": "上一页",
+        "538315008": "刷新",
+        "538315264": "下一页",
+        "538315520": "确认删除？",
+        "538315776": "测试歌曲.MP3",
+        "538316032": "删除后无法恢复",
+        "538316288": "取消",
+        "538316544": "删除"
+      },
+      "preview": "MP3删除确认-软件预览.png"
+    },
+    "switch": {
+      "objects": {
+        "538116864": {
+          "kind": "stock_header",
+          "hidden": 1
+        },
+        "538116096": {
+          "kind": "root",
+          "width": 240,
+          "height": 240,
+          "x": 0,
+          "y": 0
+        },
+        "538116608": {
+          "kind": "back",
+          "hidden": 1,
+          "click": 0
+        },
+        "538312960": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 64,
+          "height": 30,
+          "x": 8,
+          "y": 2
+        },
+        "538345472": {
+          "kind": "image",
+          "parent": 538116096,
+          "x": 156,
+          "y": 2,
+          "click": 0,
+          "source": 537066868,
+          "pixels": 538511524,
+          "width": 80,
+          "height": 30
+        },
+        "538313216": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "long_mode": 3,
+          "align": 1,
+          "click": 1,
+          "width": 224,
+          "height": 30,
+          "x": 8,
+          "y": 36
+        },
+        "538313472": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "long_mode": 3,
+          "align": 1,
+          "click": 1,
+          "width": 224,
+          "height": 30,
+          "x": 8,
+          "y": 70
+        },
+        "538313728": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 0,
+          "click": 0,
+          "width": 156,
+          "height": 30,
+          "x": 76,
+          "y": 104
+        },
+        "538345728": {
+          "kind": "image",
+          "parent": 538116096,
+          "x": 36,
+          "y": 105,
+          "click": 1,
+          "ext_click": [
+            4,
+            4,
+            4,
+            3
+          ],
+          "source": 409034848,
+          "pixels": 409038008,
+          "width": 28,
+          "height": 28
+        },
+        "538181888": {
+          "kind": "image_button",
+          "parent": 538116096,
+          "sources": {
+            "0": 404256976,
+            "1": 404269788
+          },
+          "width": 80,
+          "height": 80,
+          "x": 80,
+          "y": 148,
+          "click": 1,
+          "ext_click": [
+            0,
+            0,
+            12,
+            12
+          ]
+        },
+        "538182144": {
+          "kind": "crop",
+          "parent": 538116096,
+          "style": 538308608,
+          "width": 64,
+          "height": 64,
+          "x": 4,
+          "y": 158,
+          "click": 1,
+          "ext_click": [
+            4,
+            12,
+            22,
+            18
+          ]
+        },
+        "538182400": {
+          "kind": "image_button",
+          "parent": 538182144,
+          "sources": {
+            "0": 404310732,
+            "1": 404326104
+          },
+          "width": 120,
+          "height": 64,
+          "x": 4294967268,
+          "y": 0,
+          "click": 0
+        },
+        "538182656": {
+          "kind": "crop",
+          "parent": 538116096,
+          "style": 538308608,
+          "width": 64,
+          "height": 64,
+          "x": 172,
+          "y": 158,
+          "click": 1,
+          "ext_click": [
+            12,
+            4,
+            22,
+            18
+          ]
+        },
+        "538182912": {
+          "kind": "image_button",
+          "parent": 538182656,
+          "sources": {
+            "0": 404226232,
+            "1": 404241604
+          },
+          "width": 120,
+          "height": 64,
+          "x": 4294967268,
+          "y": 0,
+          "click": 0
+        },
+        "538183168": {
+          "kind": "arc",
+          "parent": 538116096,
+          "style": 536944252,
+          "width": 104,
+          "height": 104,
+          "x": 68,
+          "y": 136,
+          "click": 0,
+          "angles": [
+            0,
+            360
+          ]
+        },
+        "538183424": {
+          "kind": "arc",
+          "parent": 538116096,
+          "style": 536944316,
+          "width": 104,
+          "height": 104,
+          "x": 68,
+          "y": 136,
+          "click": 0,
+          "hidden": 0,
+          "angles": [
+            270,
+            354
+          ]
+        },
+        "538183680": {
+          "kind": "crop",
+          "parent": 538116096,
+          "style": 538308608,
+          "width": 240,
+          "height": 240,
+          "x": 0,
+          "y": 0,
+          "click": 1,
+          "hidden": 1
+        },
+        "538313984": {
+          "kind": "label",
+          "parent": 538183680,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 1,
+          "click": 1,
+          "width": 64,
+          "height": 30,
+          "x": 0,
+          "y": 2
+        },
+        "538314240": {
+          "kind": "label",
+          "parent": 538183680,
+          "style": 538308608,
+          "long_mode": 3,
+          "align": 1,
+          "click": 0,
+          "width": 160,
+          "height": 30,
+          "x": 72,
+          "y": 2
+        },
+        "538116352": {
+          "kind": "list",
+          "parent": 538183680,
+          "width": 240,
+          "height": 166,
+          "x": 0,
+          "y": 36
+        },
+        "538120448": {
+          "kind": "row",
+          "parent": 538116352,
+          "x": 0,
+          "y": 0,
+          "width": 240,
+          "height": 40,
+          "click": 1,
+          "hidden": 0
+        },
+        "538120576": {
+          "kind": "label",
+          "parent": 538120448,
+          "long_mode": 3,
+          "width": 208,
+          "height": 30,
+          "click": 0
+        },
+        "538120704": {
+          "kind": "row",
+          "parent": 538116352,
+          "x": 0,
+          "y": 40,
+          "width": 240,
+          "height": 40,
+          "click": 1,
+          "hidden": 0
+        },
+        "538120832": {
+          "kind": "label",
+          "parent": 538120704,
+          "long_mode": 3,
+          "width": 208,
+          "height": 30,
+          "click": 0
+        },
+        "538120960": {
+          "kind": "row",
+          "parent": 538116352,
+          "x": 0,
+          "y": 80,
+          "width": 240,
+          "height": 40,
+          "click": 1,
+          "hidden": 0
+        },
+        "538121088": {
+          "kind": "label",
+          "parent": 538120960,
+          "long_mode": 3,
+          "width": 208,
+          "height": 30,
+          "click": 0
+        },
+        "538121216": {
+          "kind": "row",
+          "parent": 538116352,
+          "x": 0,
+          "y": 120,
+          "width": 240,
+          "height": 40,
+          "click": 1,
+          "hidden": 0
+        },
+        "538121344": {
+          "kind": "label",
+          "parent": 538121216,
+          "long_mode": 3,
+          "width": 208,
+          "height": 30,
+          "click": 0
+        },
+        "538121472": {
+          "kind": "row",
+          "parent": 538116352,
+          "x": 0,
+          "y": 160,
+          "width": 240,
+          "height": 40,
+          "click": 1,
+          "hidden": 0
+        },
+        "538121600": {
+          "kind": "label",
+          "parent": 538121472,
+          "long_mode": 3,
+          "width": 208,
+          "height": 30,
+          "click": 0
+        },
+        "538121728": {
+          "kind": "row",
+          "parent": 538116352,
+          "x": 0,
+          "y": 200,
+          "width": 240,
+          "height": 40,
+          "click": 1,
+          "hidden": 0
+        },
+        "538121856": {
+          "kind": "label",
+          "parent": 538121728,
+          "long_mode": 3,
+          "width": 208,
+          "height": 30,
+          "click": 0
+        },
+        "538314496": {
+          "kind": "label",
+          "parent": 538183680,
+          "style": 538308608,
+          "long_mode": 3,
+          "align": 1,
+          "click": 0,
+          "width": 224,
+          "height": 30,
+          "x": 8,
+          "y": 96,
+          "hidden": 1
+        },
+        "538314752": {
+          "kind": "label",
+          "parent": 538183680,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 1,
+          "click": 1,
+          "width": 90,
+          "height": 30,
+          "x": 0,
+          "y": 206
+        },
+        "538315008": {
+          "kind": "label",
+          "parent": 538183680,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 1,
+          "click": 1,
+          "width": 60,
+          "height": 30,
+          "x": 90,
+          "y": 206
+        },
+        "538315264": {
+          "kind": "label",
+          "parent": 538183680,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 1,
+          "click": 1,
+          "width": 90,
+          "height": 30,
+          "x": 150,
+          "y": 206
+        },
+        "538183936": {
+          "kind": "crop",
+          "parent": 538116096,
+          "style": 538308608,
+          "width": 240,
+          "height": 240,
+          "x": 0,
+          "y": 0,
+          "click": 1,
+          "hidden": 0
+        },
+        "538315520": {
+          "kind": "label",
+          "parent": 538183936,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 1,
+          "click": 0,
+          "width": 224,
+          "height": 30,
+          "x": 8,
+          "y": 16
+        },
+        "538315776": {
+          "kind": "label",
+          "parent": 538183936,
+          "style": 538308608,
+          "long_mode": 3,
+          "align": 1,
+          "click": 0,
+          "width": 224,
+          "height": 30,
+          "x": 8,
+          "y": 76
+        },
+        "538316032": {
+          "kind": "label",
+          "parent": 538183936,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 1,
+          "click": 0,
+          "width": 224,
+          "height": 30,
+          "x": 8,
+          "y": 126
+        },
+        "538316288": {
+          "kind": "label",
+          "parent": 538183936,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 1,
+          "click": 1,
+          "width": 80,
+          "height": 42,
+          "x": 16,
+          "y": 180,
+          "hidden": 0
+        },
+        "538316544": {
+          "kind": "label",
+          "parent": 538183936,
+          "style": 538308608,
+          "long_mode": 2,
+          "align": 1,
+          "click": 1,
+          "width": 80,
+          "height": 42,
+          "x": 144,
+          "y": 180,
+          "hidden": 0
+        }
+      },
+      "labels": {
+        "538312960": "列表",
+        "538313216": "测试歌曲.MP3",
+        "538313472": "正在播放",
+        "538313728": "0:42 / 3:00",
+        "538313984": "返回",
+        "538314240": "歌曲列表",
+        "538120576": "one.mp3",
+        "538120832": "测试歌曲.MP3",
+        "538121088": "two.mp3",
+        "538121344": "three.mp3",
+        "538121600": "four.mp3",
+        "538121856": "five.mp3",
+        "538314496": "正在播放",
+        "538314752": "上一页",
+        "538315008": "刷新",
+        "538315264": "下一页",
+        "538315520": "切换到小智？",
+        "538315776": "将暂停当前音乐",
+        "538316032": "是否继续切换？",
+        "538316288": "取消",
+        "538316544": "切换"
+      },
+      "preview": "MP3切换小智确认-软件预览.png"
+    }
+  },
+  "source": "Actual Thumb page calls, shipped pixels/font; modeled LVGL rendering with synthetic directory rows",
+  "physical_device_verified": false
+}

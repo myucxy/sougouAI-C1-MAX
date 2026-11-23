@@ -1,0 +1,27 @@
+{
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "version": 141,
+  "build_revision": "v0141-play-modes-time-row",
+  "checks": {
+    "actual_ARM_boot_frames_match_all_25_user_selected_RGB565_frames": true,
+    "author_and_approved_caption_bound_to_selected_assets": true,
+    "all_pixel_sources_in_readonly_flash_without_pixel_heap_allocation": true,
+    "animation_stays_on_final_frame_and_ignores_foreign_callbacks": true,
+    "original_2000ms_boot_timer_event_and_task_before_image_cleanup_preserved": true,
+    "wall_clock_frame_selection_survives_delayed_ticks_and_uint32_wrap": true,
+    "every_partial_image_creation_failure_falls_back_to_original_brand_without_orphan_images": true,
+    "animation_task_failure_shows_final_selected_still_without_delaying_boot": true,
+    "shutdown_brand_dots_2000ms_timer_power_event_and_failure_cleanup_unchanged": true,
+    "special_boot_reason_4_still_skips_boot_page": true
+  },
+  "frame_count": 25,
+  "period_ms": 80,
+  "boot_timeout_ms": 2000,
+  "readonly_pixel_bytes": 667362,
+  "pixel_heap_bytes": 0,
+  "physical_device_verified": false,
+  "limitations": [
+    "Actual linked ARM animation and original power-page entry/timer callbacks execute; LVGL object allocation, GUI rasterization and scheduling are modeled.",
+    "No hardware cold boot, display frame rate or audible output is established."
+  ]
+}

@@ -1,0 +1,23 @@
+{
+  "version": 141,
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "checks": {
+    "settings_menu_native_settings_volume_brightness_clock_about_storage_and_wifi_keep_player_and_owner_unchanged": true,
+    "return_from_settings_preserves_playing_paused_and_idle_states_without_restart_or_stop": true,
+    "worker_poll_between_page_deinit_and_native_page_number_update_does_not_stop_music": true,
+    "ten_MP3_settings_roundtrips_keep_audio_playing_and_leave_one_player_GUI_task": true,
+    "both_native_replace_and_push_routes_to_settings_preserve_playback": true,
+    "dialogue_mode_picker_remains_usable_in_settings_without_acquiring_AI_audio": true,
+    "settings_to_AI_while_playing_opens_confirmation_on_player_and_cancel_keeps_music_playing": true,
+    "accepted_AI_confirmation_pauses_before_stop_release_and_switches_owner_only_after_release": true,
+    "USB_physical_record_switch_and_shutdown_still_stop_and_release_settings_background_music": true,
+    "failed_settings_navigation_keeps_original_page_audio_and_clears_background_flag": true
+  },
+  "background_owner": "MUSIC_MODE",
+  "settings_audio_restart": false,
+  "settings_to_AI_confirmation": "Return to MP3 with confirmation; keep playing until accepted",
+  "physical_device_verified": false,
+  "limitations": [
+    "Linked ARM page routing, music state and mode coordinator execute with controlled page dispatch, player endpoints and settings widgets. Real playback continuity, system settings side effects and speaker output remain unverified."
+  ]
+}

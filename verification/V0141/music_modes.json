@@ -1,0 +1,58 @@
+{
+  "version": 141,
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "checks": {
+    "default_ordered_and_icon_click_cycles_shuffle_one_all_ordered_without_interrupting_playback": true,
+    "time_row_icon_and_time_are_aligned_separated_and_touch_target_stops_above_previous_track_zone": true,
+    "four_distinct_readonly_RGB565_icons_match_generated_assets_without_pixel_heap": true,
+    "repeat_one_restarts_the_same_song_from_zero_after_EOF": true,
+    "ordered_mode_advances_visible_tracks_and_stops_at_end_without_hidden_files": true,
+    "repeat_all_crosses_six_song_page_boundary_and_wraps_last_to_first": true,
+    "manual_skip_in_repeat_modes_wraps_both_ends_and_still_changes_song_in_repeat_one": true,
+    "shuffle_uses_all_pages_excludes_hidden_files_and_avoids_immediate_repeats_when_multiple_songs_exist": true,
+    "shuffle_manual_next_chooses_another_song_and_previous_returns_last_played_song": true,
+    "all_repeat_and_shuffle_modes_handle_one_visible_song_without_invalid_index": true,
+    "empty_hidden_only_directory_never_starts_a_track_in_any_mode": true,
+    "decode_error_never_auto_repeats_or_skips_in_any_mode": true,
+    "each_new_track_retires_old_callback_token_to_ignore_delayed_previous_EOF": true,
+    "failed_native_stop_does_not_start_an_overlapping_auto_track": true,
+    "manual_next_queued_at_EOF_wins_once_instead_of_double_advancing": true,
+    "play_mode_and_auto_play_continue_in_settings_and_icon_restores_on_return": true,
+    "mode_selection_survives_player_unload_within_current_boot": true,
+    "optional_mode_icon_image_failure_keeps_core_player_and_default_ordered_mode_usable": true,
+    "mode_button_obeys_USB_mode_handoff_and_overlay_guards": true,
+    "EOF_cannot_restart_music_during_USB_REC_or_AI_ownership_handoff": true,
+    "shuffle_rescans_selected_page_and_does_not_play_stale_entries_when_directory_is_empty_or_unavailable": true
+  },
+  "modes": [
+    "单曲循环",
+    "全部循环",
+    "顺序播放",
+    "随机播放"
+  ],
+  "default": 2,
+  "mode_icon": [
+    36,
+    105,
+    28,
+    28
+  ],
+  "touch_target": [
+    32,
+    101,
+    36,
+    35
+  ],
+  "time_label": [
+    76,
+    104,
+    156,
+    30
+  ],
+  "mode_persistence": "current_boot",
+  "physical_device_verified": false,
+  "limitations": [
+    "Actual linked ARM player/mode/page logic, native style and hit testing execute; directory, event timing, player device endpoints and GUI rasterization remain controlled models.",
+    "Physical LCD appearance, real audio continuity and random-play feel remain unverified."
+  ]
+}

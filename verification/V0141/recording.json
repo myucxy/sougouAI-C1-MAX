@@ -1,0 +1,33 @@
+{
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "base_package_sha256": "c484e9468bae8de8ef379965290749da7cffe2eebc5a5881accffb67a7da7741",
+  "checks": {
+    "stock_recorder_pages_driver_player_and_RTOS_preserved": true,
+    "REC_boot_and_keys_use_native_recorder": true,
+    "MIC_boot_and_keys_use_separate_AI_home": true,
+    "no_new_boot_or_coordinator_threads": true,
+    "early_selector_event_does_not_lose_initial_AI_start": true,
+    "native_startup_guard_and_selector_screen_activity_preserved": true,
+    "recording_to_AI_waits_for_native_stop_without_blocking_dispatch": true,
+    "native_record_playback_stop_precedes_AI": true,
+    "AI_worker_and_DMA_release_precede_recorder": true,
+    "latest_selector_and_queue_retry_keep_page_consistent": true,
+    "timeout_keeps_previous_owner_instead_of_forcing_audio_reuse": true,
+    "USB_storage_defers_audio_handoff": true,
+    "AI_root_allocation_failure_can_return_to_recorder": true,
+    "existing_clock_worker_failure_keeps_recorder_and_retries": true,
+    "AI_key_mode_is_separate_from_physical_REC_MIC_selector": true,
+    "original_ARM_record_and_WAV_write_path": true,
+    "native_OTA_parser_and_recovery_writer": true,
+    "V0140_native_parser_accepts_V0141_volume_reimplementation": true
+  },
+  "added_MP3": true,
+  "added_Bluetooth": false,
+  "new_coordinator_thread": false,
+  "physical_device_verified": false,
+  "limitations": [
+    "Actual linked Thumb, original recording and OTA functions execute.",
+    "GUI rendering, RTOS scheduling, native device responses and flash I/O remain controlled models.",
+    "No board cold boot, USB enumeration or real audio save/playback observed."
+  ]
+}

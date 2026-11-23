@@ -1,0 +1,136 @@
+{
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "version": 141,
+  "build_revision": "v0141-play-modes-time-row",
+  "author": "清风惹尘丶",
+  "caption": "风过，尘起。",
+  "frames": [
+    {
+      "frame": 0,
+      "at_ms": 0,
+      "RGB565_sha256": "541c975670637ceccaf63e5bd77a80cbbc5f4b54970c38d5585fef30929c4887"
+    },
+    {
+      "frame": 1,
+      "at_ms": 80,
+      "RGB565_sha256": "2898f1a646be2891b99f581c9caf5819c4da475720caa71926985b808faeb258"
+    },
+    {
+      "frame": 2,
+      "at_ms": 160,
+      "RGB565_sha256": "434aed96d6406042647a4a109f95bc2e17567e607497324ec4ed970eed9df7eb"
+    },
+    {
+      "frame": 3,
+      "at_ms": 240,
+      "RGB565_sha256": "c3e83306890b0d066869f66030b61c8a121147dde942f71b56abd33caad49866"
+    },
+    {
+      "frame": 4,
+      "at_ms": 320,
+      "RGB565_sha256": "4521be8d3ca242f62699c76af433bef4579b888ba9eac6bfd92f7c97136e4f47"
+    },
+    {
+      "frame": 5,
+      "at_ms": 400,
+      "RGB565_sha256": "1323201c4f42b133c69eb3ef6c1af264d103a09f3028ee1e2b3cb4655d0e743b"
+    },
+    {
+      "frame": 6,
+      "at_ms": 480,
+      "RGB565_sha256": "985b16bb3879e2e6c935ace662acc17751b6487324578334c2592443aa859d1f"
+    },
+    {
+      "frame": 7,
+      "at_ms": 560,
+      "RGB565_sha256": "36763b76dd387c38584ca0e682eff6946d35bf5a31f1c6c43e135b89c92d8631"
+    },
+    {
+      "frame": 8,
+      "at_ms": 640,
+      "RGB565_sha256": "dbc5fafc02bd2e38f6d614476ac7317154991c8df80d22db914f220ffa15e52b"
+    },
+    {
+      "frame": 9,
+      "at_ms": 720,
+      "RGB565_sha256": "2a462be527cc83c508f643e086347cf5ba1e4f041d45389fda4d2babd8d14058"
+    },
+    {
+      "frame": 10,
+      "at_ms": 800,
+      "RGB565_sha256": "89c732a2c4af52db7748e9a5d006d83d6fa5fe3ef1872b783dd1920c078e13ce"
+    },
+    {
+      "frame": 11,
+      "at_ms": 880,
+      "RGB565_sha256": "8aad695cc188460d6f6c65afad1abce8f5372b578e636298fa5b8b8f95f7e636"
+    },
+    {
+      "frame": 12,
+      "at_ms": 960,
+      "RGB565_sha256": "b6021309cecec2f9d9598c30fd649e5161e4613856ceb2e6214a1518554ea7a7"
+    },
+    {
+      "frame": 13,
+      "at_ms": 1040,
+      "RGB565_sha256": "071b314251b9cdb1dcec688cbafb30c658c6af5b149af11e5f9f8a5e237d9c92"
+    },
+    {
+      "frame": 14,
+      "at_ms": 1120,
+      "RGB565_sha256": "db87d1f663c79988aafd20551928fda883265a0cbf9047529067cfb31aee7a83"
+    },
+    {
+      "frame": 15,
+      "at_ms": 1200,
+      "RGB565_sha256": "cb89c52f2f592857e50d7c5ea8c197a17f490fe3d7c8bb5f617daad5518d5b87"
+    },
+    {
+      "frame": 16,
+      "at_ms": 1280,
+      "RGB565_sha256": "6484186a22e397a3547052271881810554a0286a7d1396a2494dcfdaec006d8f"
+    },
+    {
+      "frame": 17,
+      "at_ms": 1360,
+      "RGB565_sha256": "644c705a2c0d3470d67630a5ecfcc3abb48141a521727ad0516151d5268a5880"
+    },
+    {
+      "frame": 18,
+      "at_ms": 1440,
+      "RGB565_sha256": "a63f54e36674a3c3872df71ce5d563f17642604e485ba9e0dd7d23775a7dd712"
+    },
+    {
+      "frame": 19,
+      "at_ms": 1520,
+      "RGB565_sha256": "9e39b171a874ff864707143c4bb7a6ae8fda3c8063e36b03ceb05531b2ae1589"
+    },
+    {
+      "frame": 20,
+      "at_ms": 1600,
+      "RGB565_sha256": "37e306a26b84166417ef1486767993afa64f582231a77e9a85f1dd7623235c68"
+    },
+    {
+      "frame": 21,
+      "at_ms": 1680,
+      "RGB565_sha256": "37e306a26b84166417ef1486767993afa64f582231a77e9a85f1dd7623235c68"
+    },
+    {
+      "frame": 22,
+      "at_ms": 1760,
+      "RGB565_sha256": "37e306a26b84166417ef1486767993afa64f582231a77e9a85f1dd7623235c68"
+    },
+    {
+      "frame": 23,
+      "at_ms": 1840,
+      "RGB565_sha256": "37e306a26b84166417ef1486767993afa64f582231a77e9a85f1dd7623235c68"
+    },
+    {
+      "frame": 24,
+      "at_ms": 1920,
+      "RGB565_sha256": "37e306a26b84166417ef1486767993afa64f582231a77e9a85f1dd7623235c68"
+    }
+  ],
+  "source": "Actual linked ARM boot image calls and immutable RGB565 pixels; modeled LVGL composition",
+  "physical_device_verified": false
+}

@@ -1,0 +1,25 @@
+{
+  "version": 141,
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "checks": {
+    "V0125_reproduces_no_auto_reconnect_after_real_screen_wake": true,
+    "real_power_wake_on_IDLE_FAILED_or_CLOSED_starts_exactly_one_original_AI_worker": true,
+    "online_connecting_activation_and_other_live_states_keep_existing_session_and_voice": true,
+    "wake_without_wifi_waits_until_original_network_ready_flag_then_connects": true,
+    "busy_failed_worker_and_250ms_native_cleanup_window_precede_reconnect": true,
+    "already_awake_callbacks_do_not_arm_or_repeat_connection_attempts": true,
+    "native_foreground_page_guard_excludes_recording_settings_and_MP3": true,
+    "audio_owner_and_pending_handoff_guard_prevent_background_AI_creation": true,
+    "USB_page_exit_mode_handoff_or_second_screen_off_cancels_deferred_attempt": true,
+    "thread_allocation_failure_reports_existing_error_without_retry_storm_next_wake_can_retry": true,
+    "manual_reconnect_consumes_pending_wake_request_without_duplicate_worker": true,
+    "healthy_capture_waiting_or_TTS_is_not_cancelled_or_restarted_on_wake": true,
+    "failure_after_one_attempt_keeps_manual_retry_and_requires_new_wake_for_auto_retry": true
+  },
+  "native_screen_wake_and_actual_linked_session_start_executed": true,
+  "physical_device_verified": false,
+  "limitations": [
+    "Native power/display dispatch and linked reconnect scheduling execute; RTOS scheduling and device/network endpoints are modeled.",
+    "This verifies when the original connection worker starts; successful real server reconnection remains unverified."
+  ]
+}

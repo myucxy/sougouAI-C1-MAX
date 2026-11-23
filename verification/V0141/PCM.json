@@ -1,0 +1,36 @@
+{
+  "version": 141,
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "V0116_reproduction": {
+    "version": 116,
+    "actual_native_prepare": "0x1803d2b8",
+    "capture_boundary": "0x50000000",
+    "available_frames": 320,
+    "adapter_returned_frames": 0,
+    "fault_error": 8,
+    "fault_log_shows_real_nonzero_hardware_pointer": true
+  },
+  "fixed": {
+    "cases": [
+      {
+        "capture_boundary": "0x50000000",
+        "application_wrap": false,
+        "native_device_and_PCM_copy_executed": true,
+        "mono_frames": 320
+      },
+      {
+        "capture_boundary": "0x50000000",
+        "application_wrap": true,
+        "native_device_and_PCM_copy_executed": true,
+        "mono_frames": 320
+      }
+    ],
+    "real_Opus_uplink_from_original_native_read": true,
+    "PCM_received_with_manual_amplitude_work_skipped": true,
+    "true_no_DMA_still_fails": true,
+    "invalid_metadata_guard_cases": 9,
+    "compiled_unsigned_counter_cases": 384,
+    "native_playback_boundary": "0x40000000",
+    "physical_microphone_observed": false
+  }
+}

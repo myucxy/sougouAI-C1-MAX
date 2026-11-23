@@ -1,0 +1,44 @@
+{
+  "version": 135,
+  "package_sha256": "3b7c13a84afce5c1a0bc541e1be1e57b289f1078d91b37107c0b84ff68224044",
+  "pages": {
+    "MP3": {
+      "body_opacity": 255,
+      "border_opacity": 0,
+      "native_cover_check": 1,
+      "upper_half_black_after_native_draw": true,
+      "native_fill_calls": [
+        {
+          "area": [
+            0,
+            0,
+            239,
+            239
+          ],
+          "color_RGB565": 0,
+          "opacity": 255
+        }
+      ]
+    },
+    "AI": {
+      "body_opacity": 255,
+      "border_opacity": 0,
+      "native_cover_check": 1,
+      "upper_half_black_after_native_draw": true,
+      "native_fill_calls": [
+        {
+          "area": [
+            0,
+            0,
+            239,
+            239
+          ],
+          "color_RGB565": 0,
+          "opacity": 255
+        }
+      ]
+    }
+  },
+  "physical_device_observed": false,
+  "scope": "Original lv_style_init, lv_obj_design cover check, lv_draw_rect, lv_draw_fill and software pixel loops execute with an emulated RGB565 display buffer; memcpy is modeled."
+}

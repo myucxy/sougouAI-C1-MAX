@@ -1,0 +1,428 @@
+{
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "screen": [
+    240,
+    240
+  ],
+  "small_font_height": 18,
+  "views": {
+    "settings": {
+      "objects": {
+        "538116864": {
+          "kind": "stock_header",
+          "hidden": 1
+        },
+        "538116096": {
+          "kind": "root"
+        },
+        "538116608": {
+          "kind": "back",
+          "hidden": 1,
+          "click": 0
+        },
+        "538313984": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "long_mode": 1,
+          "width": 224,
+          "height": 30,
+          "align": 1,
+          "click": 0,
+          "x": 8,
+          "y": 2
+        },
+        "538346240": {
+          "kind": "image",
+          "parent": 538116096,
+          "source": 409027264,
+          "pixels": 409027288,
+          "width": 40,
+          "height": 40,
+          "x": 12,
+          "y": 52,
+          "click": 1
+        },
+        "538314240": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 536944252,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 168,
+          "height": 42,
+          "x": 64,
+          "y": 55
+        },
+        "538346496": {
+          "kind": "image",
+          "parent": 538116096,
+          "source": 409027276,
+          "pixels": 409031596,
+          "width": 40,
+          "height": 40,
+          "x": 12,
+          "y": 118,
+          "click": 1
+        },
+        "538314496": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 536944252,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 168,
+          "height": 36,
+          "x": 64,
+          "y": 119
+        },
+        "538314752": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 536944316,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 168,
+          "height": 18,
+          "x": 64,
+          "y": 157
+        },
+        "538202112": {
+          "kind": "object",
+          "parent": 538116096,
+          "style": 538308608,
+          "width": 240,
+          "height": 240,
+          "x": 0,
+          "y": 0,
+          "click": 1,
+          "hidden": 1
+        },
+        "538315008": {
+          "kind": "label",
+          "parent": 538202112,
+          "style": 536944252,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 64,
+          "height": 30,
+          "x": 8,
+          "y": 2
+        },
+        "538315264": {
+          "kind": "label",
+          "parent": 538202112,
+          "style": 536944252,
+          "long_mode": 2,
+          "align": 0,
+          "click": 0,
+          "width": 144,
+          "height": 30,
+          "x": 88,
+          "y": 2
+        },
+        "538315520": {
+          "kind": "label",
+          "parent": 538202112,
+          "style": 536944252,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 224,
+          "height": 36,
+          "x": 8,
+          "y": 48
+        },
+        "538315776": {
+          "kind": "label",
+          "parent": 538202112,
+          "style": 536944316,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 224,
+          "height": 18,
+          "x": 8,
+          "y": 82
+        },
+        "538316032": {
+          "kind": "label",
+          "parent": 538202112,
+          "style": 536944252,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 224,
+          "height": 36,
+          "x": 8,
+          "y": 110
+        },
+        "538316288": {
+          "kind": "label",
+          "parent": 538202112,
+          "style": 536944316,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 224,
+          "height": 18,
+          "x": 8,
+          "y": 144
+        },
+        "538316544": {
+          "kind": "label",
+          "parent": 538202112,
+          "style": 536944252,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 224,
+          "height": 36,
+          "x": 8,
+          "y": 172
+        },
+        "538316800": {
+          "kind": "label",
+          "parent": 538202112,
+          "style": 536944316,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 224,
+          "height": 18,
+          "x": 8,
+          "y": 206
+        }
+      },
+      "labels": {
+        "538313984": "设置",
+        "538314240": "本机设置",
+        "538314496": "对话模式",
+        "538314752": "当前：连续对话",
+        "538315008": "返回",
+        "538315264": "对话模式",
+        "538315520": "已选：按住说话",
+        "538315776": "按住录音键说话",
+        "538316032": "单击开停",
+        "538316288": "点击开始或发送",
+        "538316544": "连续对话",
+        "538316800": "单击开始或结束"
+      },
+      "preview": "小智设置-当前模式-软件预览.png"
+    },
+    "picker": {
+      "objects": {
+        "538116864": {
+          "kind": "stock_header",
+          "hidden": 1
+        },
+        "538116096": {
+          "kind": "root"
+        },
+        "538116608": {
+          "kind": "back",
+          "hidden": 1,
+          "click": 0
+        },
+        "538313984": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "long_mode": 1,
+          "width": 224,
+          "height": 30,
+          "align": 1,
+          "click": 0,
+          "x": 8,
+          "y": 2
+        },
+        "538346240": {
+          "kind": "image",
+          "parent": 538116096,
+          "source": 409027264,
+          "pixels": 409027288,
+          "width": 40,
+          "height": 40,
+          "x": 12,
+          "y": 52,
+          "click": 1
+        },
+        "538314240": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 536944252,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 168,
+          "height": 42,
+          "x": 64,
+          "y": 55
+        },
+        "538346496": {
+          "kind": "image",
+          "parent": 538116096,
+          "source": 409027276,
+          "pixels": 409031596,
+          "width": 40,
+          "height": 40,
+          "x": 12,
+          "y": 118,
+          "click": 1
+        },
+        "538314496": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 536944252,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 168,
+          "height": 36,
+          "x": 64,
+          "y": 119
+        },
+        "538314752": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 536944316,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 168,
+          "height": 18,
+          "x": 64,
+          "y": 157
+        },
+        "538202112": {
+          "kind": "object",
+          "parent": 538116096,
+          "style": 538308608,
+          "width": 240,
+          "height": 240,
+          "x": 0,
+          "y": 0,
+          "click": 1,
+          "hidden": 0
+        },
+        "538315008": {
+          "kind": "label",
+          "parent": 538202112,
+          "style": 536944252,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 64,
+          "height": 30,
+          "x": 8,
+          "y": 2
+        },
+        "538315264": {
+          "kind": "label",
+          "parent": 538202112,
+          "style": 536944252,
+          "long_mode": 2,
+          "align": 0,
+          "click": 0,
+          "width": 144,
+          "height": 30,
+          "x": 88,
+          "y": 2
+        },
+        "538315520": {
+          "kind": "label",
+          "parent": 538202112,
+          "style": 536944252,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 224,
+          "height": 36,
+          "x": 8,
+          "y": 48
+        },
+        "538315776": {
+          "kind": "label",
+          "parent": 538202112,
+          "style": 536944316,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 224,
+          "height": 18,
+          "x": 8,
+          "y": 82
+        },
+        "538316032": {
+          "kind": "label",
+          "parent": 538202112,
+          "style": 536944252,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 224,
+          "height": 36,
+          "x": 8,
+          "y": 110
+        },
+        "538316288": {
+          "kind": "label",
+          "parent": 538202112,
+          "style": 536944316,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 224,
+          "height": 18,
+          "x": 8,
+          "y": 144
+        },
+        "538316544": {
+          "kind": "label",
+          "parent": 538202112,
+          "style": 536944252,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 224,
+          "height": 36,
+          "x": 8,
+          "y": 172
+        },
+        "538316800": {
+          "kind": "label",
+          "parent": 538202112,
+          "style": 536944316,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 224,
+          "height": 18,
+          "x": 8,
+          "y": 206
+        }
+      },
+      "labels": {
+        "538313984": "设置",
+        "538314240": "本机设置",
+        "538314496": "对话模式",
+        "538314752": "当前：连续对话",
+        "538315008": "返回",
+        "538315264": "对话模式",
+        "538315520": "按住说话",
+        "538315776": "按住录音键说话",
+        "538316032": "单击开停",
+        "538316288": "点击开始或发送",
+        "538316544": "已选：连续对话",
+        "538316800": "单击开始或结束"
+      },
+      "preview": "小智对话模式选择-软件预览.png"
+    }
+  },
+  "source": "Actual ARM settings/picker geometry and shipped font subset; GUI rendering modeled",
+  "physical_device_verified": false
+}

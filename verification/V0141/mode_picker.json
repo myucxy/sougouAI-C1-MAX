@@ -1,0 +1,25 @@
+{
+  "version": 141,
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "checks": {
+    "click_opens_three_modes_without_changing_selection_and_back_cancels": true,
+    "each_choice_updates_small_subtitle_selected_mark_and_preserves_carousel_after_picker_back": true,
+    "18px_shipped_font_subset_metrics_bitmaps_and_RAM_cache_execute_in_original_LVGL_callbacks": true,
+    "chosen_modes_drive_hold_release_toggle_and_single_press_continuous_start_stop": true,
+    "selected_continuous_mode_reaches_existing_Opus_native_capture_and_cancel_path": true,
+    "failed_picker_allocation_keeps_mode_and_supports_retry": true,
+    "nonclick_USB_handoff_and_wrong_foreground_cannot_change_mode": true,
+    "picker_reuses_objects_and_all_options_and_subtitle_fit_240x240": true,
+    "native_host_sanitized_state_machine_100000_mixed_three_mode_events": true
+  },
+  "modes": [
+    "按住说话",
+    "单击开停",
+    "连续对话"
+  ],
+  "selected_subtitle_font_height": 18,
+  "physical_device_verified": false,
+  "limitations": [
+    "Actual ARM mode picker/input, original LVGL font callbacks and existing Opus/capture path execute; GUI drawing and physical device boundaries are modeled."
+  ]
+}

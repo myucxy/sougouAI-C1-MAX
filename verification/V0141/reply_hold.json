@@ -1,0 +1,312 @@
+{
+  "version": 141,
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "checks": {
+    "native_STOP_ES8156_I2C_and_driver_bytes_unchanged": true,
+    "reply_tail_and_3s_idle_keep_DMA_running_without_analog_mute_or_STOP": true,
+    "next_reply_reuses_output_fades_in_and_explicit_close_restores_and_frees_once": true,
+    "automute_changes_only_bit0_and_restores_original_bit_preserving_other_bits": true,
+    "initial_short_or_failed_I2C_refuses_playback_and_cleanup_restores_uncertain_write": true,
+    "restore_failure_blocks_DMA_release_and_handoff_until_retry_succeeds": true,
+    "invalid_or_non_ES8156_identity_refuses_register_access": true,
+    "failed_STOP_does_not_free_live_DMA_or_restore_automute_midstream": true,
+    "manual_and_continuous_two_turns_reuse_one_DAC_while_capture_runs_and_cancel_releases": true,
+    "session_close_USB_fault_and_XRUN_release_held_output_and_restore_automute": true,
+    "real_record_and_MP3_handoff_waits_for_held_DAC_STOP_then_restores_and_releases": true,
+    "actual_native_start_preserves_disabled_automute_and_power_stop_occurs_only_on_explicit_exit": true,
+    "normal_tail_and_idle_tick_arithmetic_survive_32bit_wrap": true,
+    "V0127_control_executes_reply_end_mute_and_STOP_eliminated_from_V0128_normal_end": true
+  },
+  "normal_end_timing": {
+    "idle_ms": 3000,
+    "normal_end_STOPs": 0,
+    "XRUNs": 0,
+    "zero_frames_heard": 48416
+  },
+  "native_trace": [
+    {
+      "operation": "read",
+      "register": 19,
+      "value": 17,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 19,
+      "value": 16,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "read",
+      "register": 2,
+      "value": 0,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 2,
+      "value": 132,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 2,
+      "value": 132,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 32,
+      "value": 42,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 33,
+      "value": 60,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 34,
+      "value": 2,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 36,
+      "value": 7,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 35,
+      "value": 58,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 34,
+      "value": 0,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 10,
+      "value": 1,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 11,
+      "value": 1,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 1,
+      "value": 224,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 13,
+      "value": 20,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 24,
+      "value": 0,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 8,
+      "value": 63,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 0,
+      "value": 2,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 0,
+      "value": 3,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 37,
+      "value": 32,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "read",
+      "register": 17,
+      "value": 0,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 17,
+      "value": 48,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "read",
+      "register": 19,
+      "value": 16,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 19,
+      "value": 16,
+      "at_ms": 1000,
+      "running": false
+    },
+    {
+      "operation": "DMA_stop",
+      "at_ms": 2065,
+      "analog": 0,
+      "pending": 2048
+    },
+    {
+      "operation": "DAI_stop",
+      "at_ms": 2065,
+      "analog": 0,
+      "pending": 2048
+    },
+    {
+      "operation": "read",
+      "register": 19,
+      "value": 16,
+      "at_ms": 2065,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 19,
+      "value": 0,
+      "at_ms": 2065,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 25,
+      "value": 2,
+      "at_ms": 2065,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 33,
+      "value": 31,
+      "at_ms": 2065,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 34,
+      "value": 3,
+      "at_ms": 2065,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 37,
+      "value": 33,
+      "at_ms": 2066,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 37,
+      "value": 1,
+      "at_ms": 2067,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 37,
+      "value": 135,
+      "at_ms": 2068,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 24,
+      "value": 1,
+      "at_ms": 2069,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 9,
+      "value": 2,
+      "at_ms": 2069,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 9,
+      "value": 1,
+      "at_ms": 2069,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 8,
+      "value": 0,
+      "at_ms": 2069,
+      "running": false
+    },
+    {
+      "operation": "read",
+      "register": 19,
+      "value": 0,
+      "at_ms": 2069,
+      "running": false
+    },
+    {
+      "operation": "write",
+      "register": 19,
+      "value": 1,
+      "at_ms": 2069,
+      "running": false
+    }
+  ],
+  "physical_audio_observed": false,
+  "limitations": [
+    "Actual linked ARM application, real Opus and selected original ES8156/I2C/STOP instructions execute against modeled hardware endpoints.",
+    "Hardware automatic-mute effects and board microphone/DAC duplex clocks have not been observed; physical click elimination remains unverified.",
+    "DAC and 8192-byte DMA stay allocated in the active conversation after the first reply, increasing idle power. Explicit exit still uses original power-off."
+  ]
+}

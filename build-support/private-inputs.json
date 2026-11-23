@@ -1,0 +1,22 @@
+{
+  "sg-bak.bin": {
+    "bytes": 8388608,
+    "sha256": "20d63efd687fdfbf76ae979bc04ca472162d07d5f6addc1c53fc9e21ed7cb204"
+  },
+  "record-pages.bin": {
+    "bytes": 40,
+    "sha256": "e54ef7a9137a4ecde56b58c3a4b424c450fbfe6455d8d1e0b8b3de17fab19113"
+  },
+  "mode_font.h": {
+    "bytes": 3928,
+    "sha256": "ccf1c6f52ad6e18afddb31e661cab03b74822fd3be02fc4fcb84ecfa408e2b6d"
+  },
+  "mode_font.json": {
+    "bytes": 555,
+    "sha256": "28d145fed9f699bcfde2caa2c7ce5d786f41990dc310b2e5498cf10075e33af2"
+  },
+  "v0121-base/SOGOUOTA.BIN": {
+    "bytes": 8388624,
+    "sha256": "c484e9468bae8de8ef379965290749da7cffe2eebc5a5881accffb67a7da7741"
+  }
+}

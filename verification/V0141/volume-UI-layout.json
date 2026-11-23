@@ -1,0 +1,620 @@
+{
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "screen": [
+    240,
+    240
+  ],
+  "views": {
+    "MP3": {
+      "objects": {
+        "538116864": {
+          "kind": "stock_header",
+          "hidden": 1
+        },
+        "538116096": {
+          "kind": "root",
+          "width": 240,
+          "height": 240,
+          "x": 0,
+          "y": 0
+        },
+        "538116608": {
+          "kind": "back",
+          "hidden": 1,
+          "click": 0
+        },
+        "538312960": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "background_rgb565": 0,
+          "background_alpha": 255,
+          "transparent": false,
+          "long_mode": 2,
+          "align": 0,
+          "click": 1,
+          "width": 64,
+          "height": 30,
+          "x": 8,
+          "y": 2
+        },
+        "538345472": {
+          "kind": "image",
+          "parent": 538116096,
+          "x": 156,
+          "y": 2,
+          "click": 0,
+          "source": 537066868,
+          "pixels": 538511524,
+          "width": 80,
+          "height": 30
+        },
+        "538313216": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "background_rgb565": 0,
+          "background_alpha": 255,
+          "transparent": false,
+          "long_mode": 3,
+          "align": 1,
+          "click": 1,
+          "width": 224,
+          "height": 30,
+          "x": 8,
+          "y": 36
+        },
+        "538313472": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "background_rgb565": 0,
+          "background_alpha": 255,
+          "transparent": false,
+          "long_mode": 3,
+          "align": 1,
+          "click": 1,
+          "width": 224,
+          "height": 30,
+          "x": 8,
+          "y": 70
+        },
+        "538313728": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "background_rgb565": 0,
+          "background_alpha": 255,
+          "transparent": false,
+          "long_mode": 2,
+          "align": 0,
+          "click": 0,
+          "width": 156,
+          "height": 30,
+          "x": 76,
+          "y": 104
+        },
+        "538345728": {
+          "kind": "image",
+          "parent": 538116096,
+          "x": 36,
+          "y": 105,
+          "click": 1,
+          "ext_click": [
+            4,
+            4,
+            4,
+            3
+          ],
+          "source": 409034848,
+          "pixels": 409038008,
+          "width": 28,
+          "height": 28
+        },
+        "538181888": {
+          "kind": "image_button",
+          "parent": 538116096,
+          "sources": {
+            "0": 404256976,
+            "1": 404269788
+          },
+          "width": 80,
+          "height": 80,
+          "x": 80,
+          "y": 148,
+          "click": 1,
+          "ext_click": [
+            0,
+            0,
+            12,
+            12
+          ]
+        },
+        "538182144": {
+          "kind": "crop",
+          "parent": 538116096,
+          "style": 538308608,
+          "background_rgb565": 0,
+          "background_alpha": 255,
+          "transparent": false,
+          "width": 64,
+          "height": 64,
+          "x": 4,
+          "y": 158,
+          "click": 1,
+          "ext_click": [
+            4,
+            12,
+            22,
+            18
+          ]
+        },
+        "538182400": {
+          "kind": "image_button",
+          "parent": 538182144,
+          "sources": {
+            "0": 404310732,
+            "1": 404326104
+          },
+          "width": 120,
+          "height": 64,
+          "x": 4294967268,
+          "y": 0,
+          "click": 0
+        },
+        "538182656": {
+          "kind": "crop",
+          "parent": 538116096,
+          "style": 538308608,
+          "background_rgb565": 0,
+          "background_alpha": 255,
+          "transparent": false,
+          "width": 64,
+          "height": 64,
+          "x": 172,
+          "y": 158,
+          "click": 1,
+          "ext_click": [
+            12,
+            4,
+            22,
+            18
+          ]
+        },
+        "538182912": {
+          "kind": "image_button",
+          "parent": 538182656,
+          "sources": {
+            "0": 404226232,
+            "1": 404241604
+          },
+          "width": 120,
+          "height": 64,
+          "x": 4294967268,
+          "y": 0,
+          "click": 0
+        },
+        "538183168": {
+          "kind": "arc",
+          "parent": 538116096,
+          "style": 536944380,
+          "background_rgb565": 0,
+          "background_alpha": 255,
+          "transparent": false,
+          "width": 104,
+          "height": 104,
+          "x": 68,
+          "y": 136,
+          "click": 0,
+          "angles": [
+            0,
+            360
+          ]
+        },
+        "538183424": {
+          "kind": "arc",
+          "parent": 538116096,
+          "style": 536944444,
+          "background_rgb565": 0,
+          "background_alpha": 255,
+          "transparent": false,
+          "width": 104,
+          "height": 104,
+          "x": 68,
+          "y": 136,
+          "click": 0,
+          "hidden": 0,
+          "angles": [
+            270,
+            354
+          ]
+        },
+        "538183680": {
+          "kind": "crop",
+          "parent": 538116096,
+          "style": 536944508,
+          "background_rgb565": 0,
+          "background_alpha": 0,
+          "transparent": true,
+          "width": 240,
+          "height": 240,
+          "x": 0,
+          "y": 0,
+          "click": 1,
+          "hidden": 0
+        },
+        "538183936": {
+          "kind": "crop",
+          "parent": 538183680,
+          "style": 536944572,
+          "background_rgb565": 0,
+          "background_alpha": 255,
+          "transparent": false,
+          "width": 240,
+          "height": 120,
+          "x": 0,
+          "y": 120,
+          "click": 1
+        },
+        "538313984": {
+          "kind": "label",
+          "parent": 538183936,
+          "style": 536944508,
+          "background_rgb565": 0,
+          "background_alpha": 0,
+          "transparent": true,
+          "long_mode": 2,
+          "align": 0,
+          "click": 0,
+          "width": 160,
+          "height": 30,
+          "x": 8,
+          "y": 14
+        },
+        "538314240": {
+          "kind": "label",
+          "parent": 538183936,
+          "style": 536944508,
+          "background_rgb565": 0,
+          "background_alpha": 0,
+          "transparent": true,
+          "long_mode": 2,
+          "align": 0,
+          "click": 0,
+          "width": 64,
+          "height": 30,
+          "x": 172,
+          "y": 14
+        },
+        "538184192": {
+          "kind": "bar",
+          "parent": 538183936,
+          "width": 129,
+          "height": 6,
+          "x": 55,
+          "y": 71,
+          "range": [
+            0,
+            100
+          ],
+          "bar_styles": {
+            "0": 536944108,
+            "1": 536944172
+          },
+          "value": 50
+        },
+        "538184448": {
+          "kind": "image_button",
+          "parent": 538183936,
+          "sources": {
+            "0": 404350716,
+            "1": 404355336
+          },
+          "width": 48,
+          "height": 48,
+          "x": 0,
+          "y": 50,
+          "click": 1
+        },
+        "538184704": {
+          "kind": "image_button",
+          "parent": 538183936,
+          "sources": {
+            "0": 404341476,
+            "1": 404346096
+          },
+          "width": 48,
+          "height": 48,
+          "x": 192,
+          "y": 50,
+          "click": 1
+        },
+        "538184960": {
+          "kind": "crop",
+          "parent": 538183936,
+          "style": 536944508,
+          "background_rgb565": 0,
+          "background_alpha": 0,
+          "transparent": true,
+          "width": 136,
+          "height": 48,
+          "x": 52,
+          "y": 50,
+          "click": 1
+        },
+        "538185216": {
+          "kind": "crop",
+          "parent": 538183936,
+          "style": 536944636,
+          "background_rgb565": 33808,
+          "background_alpha": 255,
+          "transparent": false,
+          "width": 44,
+          "height": 3,
+          "x": 98,
+          "y": 5,
+          "click": 0
+        }
+      },
+      "labels": {
+        "538312960": "列表",
+        "538313216": "测试歌曲.MP3",
+        "538313472": "正在播放",
+        "538313728": "0:42 / 3:00",
+        "538313984": "音量大小",
+        "538314240": "50%"
+      },
+      "preview": "MP3上滑音量面板-软件预览.png"
+    },
+    "AI": {
+      "objects": {
+        "538116864": {
+          "kind": "stock_header",
+          "hidden": 1
+        },
+        "538116096": {
+          "kind": "root"
+        },
+        "538116608": {
+          "kind": "back",
+          "hidden": 1,
+          "click": 0
+        },
+        "538312960": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "background_rgb565": 0,
+          "background_alpha": 255,
+          "transparent": false,
+          "long_mode": 1,
+          "width": 144,
+          "height": 30,
+          "align": 0,
+          "click": 0,
+          "x": 8,
+          "y": 8
+        },
+        "538313216": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "background_rgb565": 0,
+          "background_alpha": 255,
+          "transparent": false,
+          "long_mode": 1,
+          "width": 224,
+          "height": 30,
+          "align": 1,
+          "click": 1,
+          "x": 8,
+          "y": 134
+        },
+        "538313472": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "background_rgb565": 0,
+          "background_alpha": 255,
+          "transparent": false,
+          "long_mode": 1,
+          "width": 224,
+          "height": 30,
+          "align": 1,
+          "click": 0,
+          "x": 8,
+          "y": 68,
+          "hidden": 1
+        },
+        "538345472": {
+          "kind": "image",
+          "parent": 538116096,
+          "source": 408887120,
+          "pixels": 408887264,
+          "width": 64,
+          "height": 64,
+          "x": 88,
+          "y": 44,
+          "click": 0,
+          "hidden": 0
+        },
+        "538313728": {
+          "kind": "label",
+          "parent": 538116096,
+          "style": 538308608,
+          "background_rgb565": 0,
+          "background_alpha": 255,
+          "transparent": false,
+          "long_mode": 1,
+          "width": 224,
+          "height": 30,
+          "align": 1,
+          "click": 0,
+          "x": 8,
+          "y": 204,
+          "hidden": 1
+        },
+        "538345728": {
+          "kind": "image",
+          "parent": 538116096,
+          "source": 408990328,
+          "pixels": 408990400,
+          "width": 128,
+          "height": 24,
+          "x": 56,
+          "y": 110,
+          "click": 0,
+          "hidden": 1
+        },
+        "538345984": {
+          "kind": "image",
+          "parent": 538116096,
+          "x": 156,
+          "y": 8,
+          "click": 0,
+          "source": 537066276,
+          "pixels": 538509312,
+          "width": 80,
+          "height": 30
+        },
+        "538181888": {
+          "kind": "crop",
+          "parent": 538116096,
+          "style": 536944380,
+          "background_rgb565": 0,
+          "background_alpha": 0,
+          "transparent": true,
+          "width": 240,
+          "height": 240,
+          "x": 0,
+          "y": 0,
+          "click": 1,
+          "hidden": 0
+        },
+        "538182144": {
+          "kind": "crop",
+          "parent": 538181888,
+          "style": 536944444,
+          "background_rgb565": 0,
+          "background_alpha": 255,
+          "transparent": false,
+          "width": 240,
+          "height": 120,
+          "x": 0,
+          "y": 120,
+          "click": 1
+        },
+        "538313984": {
+          "kind": "label",
+          "parent": 538182144,
+          "style": 536944380,
+          "background_rgb565": 0,
+          "background_alpha": 0,
+          "transparent": true,
+          "long_mode": 2,
+          "align": 0,
+          "click": 0,
+          "width": 160,
+          "height": 30,
+          "x": 8,
+          "y": 14
+        },
+        "538314240": {
+          "kind": "label",
+          "parent": 538182144,
+          "style": 536944380,
+          "background_rgb565": 0,
+          "background_alpha": 0,
+          "transparent": true,
+          "long_mode": 2,
+          "align": 0,
+          "click": 0,
+          "width": 64,
+          "height": 30,
+          "x": 172,
+          "y": 14
+        },
+        "538182400": {
+          "kind": "bar",
+          "parent": 538182144,
+          "width": 129,
+          "height": 6,
+          "x": 55,
+          "y": 71,
+          "range": [
+            0,
+            100
+          ],
+          "bar_styles": {
+            "0": 536944108,
+            "1": 536944172
+          },
+          "value": 50
+        },
+        "538182656": {
+          "kind": "image_button",
+          "parent": 538182144,
+          "sources": {
+            "0": 404350716,
+            "1": 404355336
+          },
+          "width": 48,
+          "height": 48,
+          "x": 0,
+          "y": 50,
+          "click": 1
+        },
+        "538182912": {
+          "kind": "image_button",
+          "parent": 538182144,
+          "sources": {
+            "0": 404341476,
+            "1": 404346096
+          },
+          "width": 48,
+          "height": 48,
+          "x": 192,
+          "y": 50,
+          "click": 1
+        },
+        "538183168": {
+          "kind": "crop",
+          "parent": 538182144,
+          "style": 536944380,
+          "background_rgb565": 0,
+          "background_alpha": 0,
+          "transparent": true,
+          "width": 136,
+          "height": 48,
+          "x": 52,
+          "y": 50,
+          "click": 1
+        },
+        "538183424": {
+          "kind": "crop",
+          "parent": 538182144,
+          "style": 536944508,
+          "background_rgb565": 33808,
+          "background_alpha": 255,
+          "transparent": false,
+          "width": 44,
+          "height": 3,
+          "x": 98,
+          "y": 5,
+          "click": 0
+        }
+      },
+      "labels": {
+        "538312960": "对讲模式",
+        "538313216": "小智官方 / 等待连接",
+        "538313472": "",
+        "538313728": "",
+        "538313984": "音量大小",
+        "538314240": "50%"
+      },
+      "preview": "小智上滑音量面板-软件预览.png"
+    }
+  },
+  "source": "Actual ARM UI/style calls with native-initialized styles; background alpha +8 confirmed by original rectangle/cover/software fill replay, whole-page composition modeled",
+  "physical_device_verified": false
+}

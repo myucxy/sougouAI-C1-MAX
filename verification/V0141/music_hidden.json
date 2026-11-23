@@ -1,0 +1,17 @@
+{
+  "version": 141,
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "checks": {
+    "V0139_shipped_ARM_scanner_reproduces_macOS_sidecar_and_dot_hidden_entries_in_playlist": true,
+    "first_and_second_pages_only_count_visible_MP3s_while_preserving_chinese_case_and_interior_dots": true,
+    "next_previous_across_page_boundary_skip_every_hidden_entry_and_continue_playing": true,
+    "repeated_refresh_never_lists_opens_or_deletes_dot_files": true,
+    "directory_with_only_hidden_MP3s_is_empty_and_never_starts_a_hidden_track": true,
+    "explicit_delete_targets_only_visible_song_and_leaves_hidden_disk_entries_untouched": true
+  },
+  "filter": "ignore all MP3 names beginning with a period, including ._ macOS sidecars",
+  "physical_device_verified": false,
+  "limitations": [
+    "Linked ARM directory scanning, paging, track selection and delete paths execute; directory records and player/filesystem endpoints are modeled. No physical disk cleanup or device write was performed."
+  ]
+}

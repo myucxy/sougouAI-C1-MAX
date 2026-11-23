@@ -1,0 +1,20 @@
+{
+  "version": 141,
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "checks": {
+    "V0135_original_native_rectangle_fills_upper_half_black_and_claims_opaque_cover_on_both_pages": true,
+    "both_pages_clear_background_opacity_at_native_offset_8_and_keep_panel_opaque": true,
+    "native_cover_test_returns_false_for_transparent_overlay_and_for_panel_outside_upper_half": true,
+    "native_rectangle_and_software_pixel_fills_preserve_every_upper_pixel_and_paint_only_bottom_half": true,
+    "upper_half_only_refresh_clip_remains_unchanged_after_native_overlay_draw": true,
+    "crossed_opacity_values_prove_background_uses_8_independently_of_border_15": true,
+    "native_LVGL_style_init_coverage_rectangle_and_software_fill_instructions_are_unchanged": true
+  },
+  "body_opacity_offset": 8,
+  "border_opacity_offset": 15,
+  "physical_device_verified": false,
+  "limitations": [
+    "Emulated display driver, framebuffer and framebuffer allocation; no physical panel, refresh DMA or timing observation.",
+    "Native rectangle/cover/area/software fill execute; libc memcpy is modeled. Whole-page glyph/image preview composition remains modeled."
+  ]
+}

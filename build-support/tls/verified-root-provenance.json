@@ -1,0 +1,6 @@
+{
+  "obtained_from": "Python system-trusted TLS 1.2 verified chain for api.tenclass.net",
+  "root_der_sha256": "cb3ccbb76031e5e0138f8dd39a23f9de47ffc35e43c1144cea27d46a5ab1cb5f",
+  "official_root_not_pinned_as_only_future_root": true,
+  "identity_submitted": false
+}

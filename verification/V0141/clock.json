@@ -1,0 +1,63 @@
+{
+  "version": 141,
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "actual_Thumb_clock_adapter_executed": true,
+  "real_local_UDP_reply_applied_to_modeled_RTC": true,
+  "RTC_64bit_payload_verified": true,
+  "2036_era_rollover": true,
+  "invalid_packets_rejected": [
+    "unsynced",
+    "client_mode",
+    "old_version",
+    "future_version",
+    "kiss_of_death",
+    "stratum16",
+    "wrong_origin"
+  ],
+  "network_cases": {
+    "valid": {
+      "success": true,
+      "all_sockets_closed": true,
+      "elapsed_model_ms": 0
+    },
+    "first_host_timeout": {
+      "success": true,
+      "all_sockets_closed": true,
+      "elapsed_model_ms": 4000
+    },
+    "wrong_cookie": {
+      "success": false,
+      "all_sockets_closed": true,
+      "elapsed_model_ms": 8000
+    },
+    "timeout": {
+      "success": false,
+      "all_sockets_closed": true,
+      "elapsed_model_ms": 8000
+    },
+    "dns_failure": {
+      "success": false,
+      "all_sockets_closed": true,
+      "elapsed_model_ms": 0
+    },
+    "usb_during_wait": {
+      "success": false,
+      "all_sockets_closed": true,
+      "elapsed_model_ms": 20
+    },
+    "rtc_write_failure": {
+      "success": false,
+      "all_sockets_closed": true,
+      "elapsed_model_ms": 8000
+    },
+    "rtc_readback_mismatch": {
+      "success": false,
+      "all_sockets_closed": true,
+      "elapsed_model_ms": 8000
+    }
+  },
+  "retry_refresh_reconnect_verified": true,
+  "valid_RTC_fallback_and_invalid_RTC_failure": true,
+  "timezone_setting_bytes_unmodified": true,
+  "physical_device_verified": false
+}

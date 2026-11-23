@@ -1,0 +1,27 @@
+{
+  "version": 141,
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "V0117_reproduction": {
+    "version": 117,
+    "native_screen_woke": true,
+    "pending_owned_latch_blocks_next_REC": true,
+    "interrupted_release_is_controlled_fixture": true
+  },
+  "fixed": [
+    {
+      "mode": "hold",
+      "native_power_wake_and_next_record_cycles": 20
+    },
+    {
+      "mode": "toggle",
+      "native_power_wake_and_next_record_cycles": 20
+    }
+  ],
+  "native_power_key_dispatch_and_display_wake_executed": true,
+  "wifi_flags_preserved": true,
+  "automatic_reply_not_cancelled_on_wake": true,
+  "already_awake_does_not_clear_current_press": true,
+  "record_activity_wakes_display": true,
+  "settings_cannot_start_capture": true,
+  "physical_device_verified": false
+}

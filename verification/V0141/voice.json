@@ -1,0 +1,12 @@
+{
+  "package_sha256": "4a91383c0ae06ba16aa0772c42619ced8e4800b1d1d48dc9c75a106ee060d6f7",
+  "actual_Thumb_pcm_to_Opus_uplink": true,
+  "actual_Thumb_Opus_to_stereo_speaker": true,
+  "decoded_nonzero_frames": 262400,
+  "hold_send_and_cancel_commands": true,
+  "continuous_mode_silence_sends_stop": true,
+  "native_audio_parameters_checked": true,
+  "DMA_stall_fails_bounded_without_native_wait": true,
+  "failed_capture_keeps_not_ready": true,
+  "no_board_audio_observed": true
+}

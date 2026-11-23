@@ -1,0 +1,117 @@
+[
+  {
+    "script": "test_music_modes.py",
+    "exit": 0,
+    "seconds": 5.18
+  },
+  {
+    "script": "test_music_hidden.py",
+    "exit": 0,
+    "seconds": 3.48
+  },
+  {
+    "script": "test_music_keys.py",
+    "exit": 0,
+    "seconds": 4.52
+  },
+  {
+    "script": "test_music_settings.py",
+    "exit": 0,
+    "seconds": 4.59
+  },
+  {
+    "script": "test_music_touch.py",
+    "exit": 0,
+    "seconds": 4.41
+  },
+  {
+    "script": "test_native_volume_draw.py",
+    "exit": 0,
+    "seconds": 3.61
+  },
+  {
+    "script": "test_volume_safe.py",
+    "exit": 0,
+    "seconds": 6.19
+  },
+  {
+    "script": "test_settings_only.py",
+    "exit": 0,
+    "seconds": 3.54
+  },
+  {
+    "script": "test_xiaozhi_mode_picker.py",
+    "exit": 0,
+    "seconds": 5.2
+  },
+  {
+    "script": "test_xiaozhi_wake_reconnect.py",
+    "exit": 0,
+    "seconds": 4.01
+  },
+  {
+    "script": "test_xiaozhi_memory.py",
+    "exit": 0,
+    "seconds": 10.65
+  },
+  {
+    "script": "test_xiaozhi_voice_native.py",
+    "exit": 0,
+    "seconds": 15.68
+  },
+  {
+    "script": "test_xiaozhi_pcm_boundary.py",
+    "exit": 0,
+    "seconds": 5.21
+  },
+  {
+    "script": "test_xiaozhi_capture_start.py",
+    "exit": 0,
+    "seconds": 5.06
+  },
+  {
+    "script": "test_xiaozhi_sleep.py",
+    "exit": 0,
+    "seconds": 3.94
+  },
+  {
+    "script": "test_xiaozhi_playback_finish.py",
+    "exit": 0,
+    "seconds": 5.48
+  },
+  {
+    "script": "test_xiaozhi_power_ui.py",
+    "exit": 0,
+    "seconds": 3.62
+  },
+  {
+    "script": "test_xiaozhi_arm_session.py",
+    "exit": 0,
+    "seconds": 6.9
+  },
+  {
+    "script": "test_xiaozhi_clock.py",
+    "exit": 0,
+    "seconds": 3.97
+  },
+  {
+    "script": "test_xiaozhi_reply_hold.py",
+    "exit": 0,
+    "seconds": 37.57
+  },
+  {
+    "script": "test_music.py",
+    "exit": 0,
+    "seconds": 7.02
+  },
+  {
+    "script": "test_record_restore.py",
+    "exit": 0,
+    "seconds": 6.99
+  },
+  {
+    "script": "test_stage_xiaozhi_official.py",
+    "exit": 0,
+    "seconds": 6.38
+  }
+]
