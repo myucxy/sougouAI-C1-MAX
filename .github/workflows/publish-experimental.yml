@@ -1,0 +1,76 @@
+name: Publish V0141 experimental source release
+
+on:
+  push:
+    tags:
+      - v0141-experimental
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: release-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  publish:
+    if: github.repository == 'myucxy/sougouAI-C1-MAX' && github.ref == 'refs/tags/v0141-experimental'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the exact tagged source
+        uses: actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683 # v4.2.2
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+
+      - name: Test source and inspect tracked public files
+        run: |
+          python3 scripts/run_checks.py
+          python3 scripts/check_public_tree.py --tracked
+
+      - name: Package tracked source only
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir -p build/release
+          git archive --format=zip --prefix=c208-firmware/ \
+            --output=build/release/c208-v0141-experimental-source.zip HEAD
+          cd build/release
+          sha256sum c208-v0141-experimental-source.zip > SHA256SUMS.txt
+
+      - name: Upload, verify, and publish the prerelease
+        shell: bash
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: v0141-experimental
+        run: |
+          set -euo pipefail
+          state=$(gh release view "$RELEASE_TAG" --json isDraft --jq '.isDraft' 2>/dev/null || true)
+          if [ "$state" = "false" ]; then
+            echo 'Release is already published; verify assets without replacing them.'
+            mkdir -p build/downloaded
+            gh release download "$RELEASE_TAG" --dir build/downloaded \
+              --pattern c208-v0141-experimental-source.zip --pattern SHA256SUMS.txt
+            cmp build/release/c208-v0141-experimental-source.zip build/downloaded/c208-v0141-experimental-source.zip
+            cmp build/release/SHA256SUMS.txt build/downloaded/SHA256SUMS.txt
+            exit 0
+          fi
+          if [ "$state" != "true" ]; then
+            gh release create "$RELEASE_TAG" --verify-tag --draft --prerelease \
+              --title 'V0141 实验版（源码预发布）' \
+              --notes-file firmware/V0141/EXPERIMENTAL_RELEASE.md
+          fi
+          gh release upload "$RELEASE_TAG" \
+            build/release/c208-v0141-experimental-source.zip build/release/SHA256SUMS.txt --clobber
+          mkdir -p build/downloaded
+          gh release download "$RELEASE_TAG" --dir build/downloaded \
+            --pattern c208-v0141-experimental-source.zip --pattern SHA256SUMS.txt
+          cmp build/release/c208-v0141-experimental-source.zip build/downloaded/c208-v0141-experimental-source.zip
+          cmp build/release/SHA256SUMS.txt build/downloaded/SHA256SUMS.txt
+          gh release edit "$RELEASE_TAG" --draft=false --prerelease --latest=false
+          gh release view "$RELEASE_TAG" --json url,tagName,isDraft,isPrerelease,assets
