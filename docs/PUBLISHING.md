@@ -31,7 +31,7 @@ GitHub Release 说明应继续标明“实验版本”和已验证范围，不�
 
 ## V0141 实验预发布
 
-本仓库的 `.github/workflows/publish-experimental.yml` 只为维护者仓库中的 `v0141-experimental` 标签发布源码实验版，也可以在该标签上手动运行。推送普通分支和其他标签不会触发本次发布。
+本仓库的 `.github/workflows/publish-experimental.yml` 固定检出维护者仓库中的 `v0141-experimental` 标签发布源码实验版。创建该标签、更新 main 上的发布工作流，或在 main／该标签手动运行均可触发；普通功能提交和其他标签不会触发本次发布。
 
 流程先执行公开源码检查与主机测试，只从标签对应的 Git 跟踪文件生成源码 ZIP，创建预发布草稿后上传并回读核对附件，最后公开为 Pre-release，不设为正式 Latest。附件不含完整 OTA 或任何本地私有输入。发布说明来自 `firmware/V0141/EXPERIMENTAL_RELEASE.md`。
 
